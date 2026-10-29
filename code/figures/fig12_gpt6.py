@@ -45,7 +45,7 @@ from matplotlib.transforms import Bbox
 import numpy as np
 
 
-DATA = Path(__file__).resolve().parent.parent / "results" / "e9" / "fig12_data.json"
+DATA = Path(__file__).resolve().parents[2] / "results" / "e9" / "fig12_data.json"
 OUTPUT = Path(__file__).resolve().parent / "fig8_gpt6.png"
 DPI = 300
 WIDTH, HEIGHT = 6.5, 6.3
@@ -259,14 +259,14 @@ def build_figure(s):
                                       connectionstyle="arc3", relpos=(0.5, 0), shrinkA=3, shrinkB=0))
     repeat_value, repeat_count = Counter(s["hist"]).most_common(1)[0]
     repeat_bin = np.searchsorted(edges, repeat_value, side="right") - 1
-    hist.annotate(f"{repeat_count} exact repeats\nat {repeat_value:g} mm",
+    hist.annotate(f"{repeat_count} exact repeats\nat {repeat_value:.2f} mm",
                   xy=(repeat_value, frequencies[repeat_bin]), xytext=(0.04, 0.48),
                   textcoords="axes fraction", ha="left", va="top", fontsize=8.0,
                   linespacing=1.35,
                   arrowprops=dict(arrowstyle="-", color=GRAY, linewidth=0.7,
                                   connectionstyle="arc3", relpos=(1, 0), shrinkA=3))
     figure_text(fig, 0.100, 0.052,
-                f"τ = {s['tau']:g}: supplied LOPO median; unstable ({s['absent_folds']}/{s['total_folds']} folds lack failing cells).", fontsize=8.0)
+                f"τ = {s['tau']:g}: supplied LOPO threshold; training-fold thresholds degenerate in {s['absent_folds']} of {s['total_folds']} folds.", fontsize=8.0)
     figure_text(fig, 0.100, 0.027,
                 "Dashed orange lines: CAD inter-feature pitches; reference locations, not exact error modes.", fontsize=8.0)
     return fig
@@ -312,8 +312,8 @@ def make_caption(s):
         f"{s['ctx']['arm']} trials across {s['n_cells']} cells (success < {s['success_limit']:g} mm; "
         f"marker area encodes coincident trial count; the broken log certificate axis uses separate horizontal scales). "
         f"(b) Cell-level ROC (positive class: failure, defined as cell success rate at or below {s['positive_rate']:.0%}; "
-        f"in-sample AUC = {s['auc']:.2f}), with the supplied LOPO-median threshold τ = {s['tau']:g} marked; "
-        f"this threshold is unstable because {s['absent_folds']} of {s['total_folds']} folds lack a failing cell. "
+        f"in-sample AUC = {s['auc']:.2f}), with the supplied LOPO threshold τ = {s['tau']:g} marked; "
+        f"training-fold threshold selection degenerates to machine zero in {s['absent_folds']} of {s['total_folds']} folds. "
         f"(c) All {len(s['hist'])} unbounded-solver failure errors are shown with the {p['shoulder_offset']:g} mm shoulder offset "
         f"and {p['end_plane_gap']:g} mm end-plane gap marked as CAD inter-feature pitches, whose correspondence "
         f"with the measured clusters is approximate. "
