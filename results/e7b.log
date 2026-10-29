@@ -1,0 +1,28 @@
+re-exporting 20 parts, lin_deflect=0.01mm
+  21638_0a984848_73: FAIL TypeError("'OCP.OCP.TopAbs.TopAbs_ShapeEnum' object is not callable")
+  29726_73b01e1f_0: FAIL TypeError("'OCP.OCP.TopAbs.TopAbs_ShapeEnum' object is not callable")
+  132581_e683b2ae_6: FAIL TypeError("'OCP.OCP.TopAbs.TopAbs_ShapeEnum' object is not callable")
+  52890_7ae554d9_1: FAIL TypeError("'OCP.OCP.TopAbs.TopAbs_ShapeEnum' object is not callable")
+  24012_097cf980_0: FAIL TypeError("'OCP.OCP.TopAbs.TopAbs_ShapeEnum' object is not callable")
+  22201_473a3a65_23: FAIL TypeError("'OCP.OCP.TopAbs.TopAbs_ShapeEnum' object is not callable")
+  21644_aa203dc5_3: FAIL TypeError("'OCP.OCP.TopAbs.TopAbs_ShapeEnum' object is not callable")
+  25365_14519ce1_0: FAIL TypeError("'OCP.OCP.TopAbs.TopAbs_ShapeEnum' object is not callable")
+  22772_2b5f6629_15: FAIL TypeError("'OCP.OCP.TopAbs.TopAbs_ShapeEnum' object is not callable")
+  129401_7686af57_0: FAIL TypeError("'OCP.OCP.TopAbs.TopAbs_ShapeEnum' object is not callable")
+  22100_7eb0592c_3: FAIL TypeError("'OCP.OCP.TopAbs.TopAbs_ShapeEnum' object is not callable")
+  38953_19054857_4: FAIL TypeError("'OCP.OCP.TopAbs.TopAbs_ShapeEnum' object is not callable")
+  146889_355637a1_31: FAIL TypeError("'OCP.OCP.TopAbs.TopAbs_ShapeEnum' object is not callable")
+  45030_8789f090_2: FAIL TypeError("'OCP.OCP.TopAbs.TopAbs_ShapeEnum' object is not callable")
+  28119_f4fb1c4c_1: FAIL TypeError("'OCP.OCP.TopAbs.TopAbs_ShapeEnum' object is not callable")
+  38953_19054857_5: FAIL TypeError("'OCP.OCP.TopAbs.TopAbs_ShapeEnum' object is not callable")
+  49795_efb13311_6: FAIL TypeError("'OCP.OCP.TopAbs.TopAbs_ShapeEnum' object is not callable")
+  49797_52162ad8_6: FAIL TypeError("'OCP.OCP.TopAbs.TopAbs_ShapeEnum' object is not callable")
+  49019_748c9a9f_19: FAIL TypeError("'OCP.OCP.TopAbs.TopAbs_ShapeEnum' object is not callable")
+  sample_model: FAIL TypeError("'OCP.OCP.TopAbs.TopAbs_ShapeEnum' object is not callable")
+Traceback (most recent call last):
+  File "/home/ubclr/projects/new/geop2e/code/minimal/e7b_fine_export.py", line 213, in <module>
+    main()
+  File "/home/ubclr/projects/new/geop2e/code/minimal/e7b_fine_export.py", line 164, in main
+    drop = max(cur3, key=lambda r: r["volume_cm3"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: max() arg is an empty sequence

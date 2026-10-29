@@ -1,0 +1,18 @@
+50 filtered scans
+parts: ['Base-Top_Plate', 'Bookshelf', 'Guitar', 'Pendulum', 'Range_Hood', 'Round-Peg', 'Separator', 'Shaft-New', 'Square-Peg']
+  fit Base-Top_Plate: {'plane': 5, 'cylinder': 2, 'sphere': 0} coverage=0.6898
+  fit Bookshelf: {'plane': 12, 'cylinder': 0, 'sphere': 0} coverage=0.8067
+  fit Guitar: {'plane': 3, 'cylinder': 0, 'sphere': 0} coverage=0.7875
+  fit Pendulum: {'plane': 4, 'cylinder': 3, 'sphere': 0} coverage=0.6876
+  fit Range_Hood: {'plane': 9, 'cylinder': 0, 'sphere': 0} coverage=0.9757
+  fit Round-Peg: {'plane': 0, 'cylinder': 3, 'sphere': 1} coverage=0.1859
+  fit Separator: {'plane': 6, 'cylinder': 0, 'sphere': 0} coverage=0.6508
+  fit Shaft-New: {'plane': 8, 'cylinder': 4, 'sphere': 0} coverage=0.788
+  fit Square-Peg: {'plane': 12, 'cylinder': 0, 'sphere': 0} coverage=0.7868
+Traceback (most recent call last):
+  File "/home/ubclr/projects/new/geop2e/code/minimal/e4_cranfield.py", line 382, in <module>
+    main(skip_rpmnet="--skip-rpmnet" in sys.argv, fit_only="--fit-only" in sys.argv)
+  File "/home/ubclr/projects/new/geop2e/code/minimal/e4_cranfield.py", line 261, in main
+    d_fwd = float(np.median(p2m(src @ sols[0][:3, :3].T + sols[0][:3, 3])))
+                                ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+ValueError: operands could not be broadcast together with shapes (4,6074,2) (2,4) 

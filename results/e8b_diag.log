@@ -1,0 +1,15 @@
+scan5: 12 candidates
+  cand00: median=0.179 in1mm=73.2% <-- best
+  cand01: median=0.185 in1mm=73.1%
+  cand02: median=0.145 in1mm=96.8% <-- best
+  cand03: median=0.134 in1mm=100.0% <-- best
+  cand08: median=7.211 in1mm=11.2%
+scan5 best: 0.134mm
+scan5 GeoP2E rad=36.1: median=0.144 p95=0.30 iters=22
+scan5 GeoP2E rad=8.0: median=0.144 p95=0.30 iters=8
+scan5 GeoP2E rad=3.0: median=0.133 p95=0.26 iters=14
+Traceback (most recent call last):
+  File "/tmp/e8b_diag.py", line 74, in <module>
+    T0 = np.array(r["match_scores"][stem]["T"])
+                  ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+KeyError: 'T'

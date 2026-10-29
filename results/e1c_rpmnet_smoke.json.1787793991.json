@@ -1,0 +1,42 @@
+{
+  "ckpt": "/home/ubclr/projects/new/3dphy/data/real/cranfield/src/toolboxes/learning3d/checkpoints/exp_rpmnet_partial_0.7_noisy_0.01_floor/models/best_model_snap.t7",
+  "n_pts": 1024,
+  "seed": 20260827,
+  "device": "cuda:0",
+  "note": "zero-shot, partial_0.7_noisy checkpoint, own-centroid + target-extent normalisation, fixed-1024 seeded subsample",
+  "results": {
+    "smoke_gear": {
+      "T": [
+        [
+          0.9926133751869202,
+          -0.09126633405685425,
+          0.07992513477802277,
+          -2.229611840450142
+        ],
+        [
+          0.08899801224470139,
+          0.9955333471298218,
+          0.0315094031393528,
+          2.3954626962989916
+        ],
+        [
+          -0.08244366943836212,
+          -0.024163618683815002,
+          0.9963027238845825,
+          -0.6002236186724517
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "time_s": 0.5268328189849854,
+      "extent": 57.11860740657138,
+      "scale": 0.017507429634654435,
+      "n_src": 14058,
+      "n_tgt": 20000
+    }
+  }
+}

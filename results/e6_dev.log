@@ -1,0 +1,24 @@
+[G1] parse
+  supports=158 {'plane': 2, 'cylinder': 156} coverage=0.970 D=57.120 (4.8s)
+[G2] trimmed-exactness at identity
+  exact-sample trimmed distance: median=0.00e+00 p99=0.00e+00
+[G3] A1 fixed-point from TRUE pose
+  final rre=0.0805deg rte=0.01264D  -> PASS
+[G4] A1 recovery from coarse (5deg/2%D)
+  seed0: rre=0.095deg rte=0.0160D accepted=60 (17.0s)
+  seed1: rre=0.079deg rte=0.0130D accepted=60 (19.0s)
+  seed2: rre=0.052deg rte=0.0127D accepted=60 (15.7s)
+  recovery 3/3 -> PASS
+[G5] A3 selection (val = held-out spatial block score at solved pose)
+  picked=all n=158 U=0.00136 alarm=False
+    E6    n=  6 kappa=1823944.45 U=   0.014 alarm=False
+    E8    n=  8 kappa=1443748.94 U= 0.00944 alarm=False
+    E12   n= 12 kappa=1846396.49 U= 0.00671 alarm=False
+    E16   n= 16 kappa=3203211.00 U= 0.00542 alarm=False
+    E24   n= 24 kappa=5583634.34 U= 0.00412 alarm=False
+    E32   n= 32 kappa=8344822.12 U= 0.00341 alarm=False
+    all   n=158 kappa=38775106.89 U= 0.00136 alarm=False
+[G6] A4 + staged HV smoke
+  multistart chosen=canon rre=0.081deg rte=0.0126D
+  staged HV winner=full base=0.01719 se=9.61e-05
+DONE

@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/tmp/opus_review_e8e.py", line 35, in <module>
+    out = call_opus5_raw(messages=[{"role": "user", "content": prompt}],
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubclr/tmp/opus5_raw_call.py", line 51, in call_opus5_raw
+    raise RuntimeError(f"opus5_raw failed after {retries} retries: {last_err}")
+RuntimeError: opus5_raw failed after 3 retries: empty response text

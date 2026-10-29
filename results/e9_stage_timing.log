@@ -1,0 +1,48 @@
+21638_0a984848_73 {'cad_parse_s': 0.87, 'fim_selection_s': 0.002, 'eval_cloud_build_s_cached': 0.248}
+21644_aa203dc5_3 {'cad_parse_s': 0.4, 'fim_selection_s': 0.001, 'eval_cloud_build_s_cached': 0.207}
+29726_73b01e1f_0 {'cad_parse_s': 0.36, 'fim_selection_s': 0.001, 'eval_cloud_build_s_cached': 0.17}
+52890_7ae554d9_1 {'cad_parse_s': 0.32, 'fim_selection_s': 0.001, 'eval_cloud_build_s_cached': 0.155}
+25365_14519ce1_0 {'cad_parse_s': 0.35, 'fim_selection_s': 0.001, 'eval_cloud_build_s_cached': 0.167}
+saved results/e9_stage_timing.json
+{
+ "21638_0a984848_73": {
+  "cad_parse_s": 0.87,
+  "fim_selection_s": 0.002,
+  "eval_cloud_build_s_cached": 0.248,
+  "coarse_init_med_s": 1.09,
+  "geop2e_refine_med_s": 0.33,
+  "icp_p2plane_med_s": 0.06
+ },
+ "21644_aa203dc5_3": {
+  "cad_parse_s": 0.4,
+  "fim_selection_s": 0.001,
+  "eval_cloud_build_s_cached": 0.207,
+  "coarse_init_med_s": 0.65,
+  "geop2e_refine_med_s": 3.55,
+  "icp_p2plane_med_s": 0.03
+ },
+ "29726_73b01e1f_0": {
+  "cad_parse_s": 0.36,
+  "fim_selection_s": 0.001,
+  "eval_cloud_build_s_cached": 0.17,
+  "coarse_init_med_s": 0.68,
+  "geop2e_refine_med_s": 2.86,
+  "icp_p2plane_med_s": 0.03
+ },
+ "52890_7ae554d9_1": {
+  "cad_parse_s": 0.32,
+  "fim_selection_s": 0.001,
+  "eval_cloud_build_s_cached": 0.155,
+  "coarse_init_med_s": 0.31,
+  "geop2e_refine_med_s": 0.16,
+  "icp_p2plane_med_s": 0.01
+ },
+ "25365_14519ce1_0": {
+  "cad_parse_s": 0.35,
+  "fim_selection_s": 0.001,
+  "eval_cloud_build_s_cached": 0.167,
+  "coarse_init_med_s": 0.88,
+  "geop2e_refine_med_s": 0.14,
+  "icp_p2plane_med_s": 0.02
+ }
+}

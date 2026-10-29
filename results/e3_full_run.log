@@ -1,0 +1,292 @@
+target (20000, 3) feats 207 selected 8 lambda_min=64.80 kappa=2202.94 N_sym=17 (match=0.939)
+[synth loss0 t0] no_hv=miss(5.07deg) full_hv=miss(5.07deg)
+[synth loss0 t1] no_hv=miss(5.07deg) full_hv=miss(5.07deg)
+[synth loss0 t2] no_hv=miss(5.07deg) full_hv=miss(5.07deg)
+[synth loss0 t3] no_hv=miss(2.95deg) full_hv=miss(2.95deg)
+[synth loss0 t4] no_hv=miss(5.07deg) full_hv=miss(5.07deg)
+[synth loss0 t5] no_hv=miss(5.07deg) full_hv=miss(5.07deg)
+[synth loss0 t6] no_hv=miss(5.07deg) full_hv=miss(5.07deg)
+[synth loss0 t7] no_hv=miss(5.07deg) full_hv=miss(5.07deg)
+[synth loss0 t8] no_hv=miss(5.07deg) full_hv=miss(5.07deg)
+[synth loss0 t9] no_hv=miss(5.07deg) full_hv=miss(5.07deg)
+[synth loss0 t10] no_hv=miss(5.07deg) full_hv=miss(5.07deg)
+[synth loss0 t11] no_hv=miss(5.07deg) full_hv=miss(5.07deg)
+[synth loss0 t12] no_hv=miss(5.07deg) full_hv=miss(5.07deg)
+[synth loss0 t13] no_hv=miss(5.07deg) full_hv=miss(5.07deg)
+[synth loss0 t14] no_hv=miss(5.07deg) full_hv=miss(5.07deg)
+[synth loss0 t15] no_hv=miss(5.07deg) full_hv=miss(5.07deg)
+[synth loss0 t16] no_hv=miss(2.95deg) full_hv=miss(2.95deg)
+[synth loss0 t17] no_hv=miss(5.07deg) full_hv=miss(5.07deg)
+[synth loss0 t18] no_hv=miss(5.07deg) full_hv=miss(5.07deg)
+[synth loss0 t19] no_hv=miss(5.07deg) full_hv=miss(5.07deg)
+[synth loss30_aligned t0] no_hv=miss(5.05deg) full_hv=miss(5.05deg)
+[synth loss30_aligned t1] no_hv=miss(7.25deg) full_hv=miss(7.89deg)
+[synth loss30_aligned t2] no_hv=miss(7.16deg) full_hv=miss(2.96deg)
+[synth loss30_aligned t3] no_hv=miss(5.11deg) full_hv=miss(2.71deg)
+[synth loss30_aligned t4] no_hv=miss(10.50deg) full_hv=miss(10.50deg)
+[synth loss30_aligned t5] no_hv=miss(2.97deg) full_hv=miss(2.97deg)
+[synth loss30_aligned t6] no_hv=miss(10.41deg) full_hv=miss(2.75deg)
+[synth loss30_aligned t7] no_hv=miss(5.07deg) full_hv=ok(0.02deg)
+[synth loss30_aligned t8] no_hv=miss(7.26deg) full_hv=miss(2.97deg)
+[synth loss30_aligned t9] no_hv=miss(5.07deg) full_hv=ok(0.02deg)
+[synth loss30_aligned t10] no_hv=miss(7.25deg) full_hv=ok(0.18deg)
+[synth loss30_aligned t11] no_hv=miss(10.56deg) full_hv=miss(2.73deg)
+[synth loss30_aligned t12] no_hv=miss(5.07deg) full_hv=ok(0.02deg)
+[synth loss30_aligned t13] no_hv=miss(5.07deg) full_hv=ok(0.02deg)
+[synth loss30_aligned t14] no_hv=miss(10.50deg) full_hv=miss(10.50deg)
+[synth loss30_aligned t15] no_hv=miss(5.11deg) full_hv=miss(5.11deg)
+[synth loss30_aligned t16] no_hv=miss(10.50deg) full_hv=miss(10.50deg)
+[synth loss30_aligned t17] no_hv=miss(7.25deg) full_hv=miss(7.25deg)
+[synth loss30_aligned t18] no_hv=miss(5.07deg) full_hv=ok(0.02deg)
+[synth loss30_aligned t19] no_hv=miss(2.72deg) full_hv=miss(2.72deg)
+[synth loss30_oblique t0] no_hv=miss(5.08deg) full_hv=miss(5.08deg)
+[synth loss30_oblique t1] no_hv=miss(5.16deg) full_hv=miss(5.16deg)
+[synth loss30_oblique t2] no_hv=miss(2.91deg) full_hv=miss(2.91deg)
+[synth loss30_oblique t3] no_hv=miss(5.07deg) full_hv=miss(5.07deg)
+[synth loss30_oblique t4] no_hv=miss(7.12deg) full_hv=miss(7.12deg)
+[synth loss30_oblique t5] no_hv=miss(4.39deg) full_hv=miss(4.39deg)
+[synth loss30_oblique t6] no_hv=miss(5.07deg) full_hv=miss(5.07deg)
+[synth loss30_oblique t7] no_hv=miss(7.36deg) full_hv=ok(0.13deg)
+[synth loss30_oblique t8] no_hv=miss(6.88deg) full_hv=miss(6.88deg)
+[synth loss30_oblique t9] no_hv=miss(7.14deg) full_hv=miss(7.14deg)
+[synth loss30_oblique t10] no_hv=ok(0.02deg) full_hv=ok(0.02deg)
+[synth loss30_oblique t11] no_hv=miss(5.13deg) full_hv=miss(5.13deg)
+[synth loss30_oblique t12] no_hv=miss(10.51deg) full_hv=miss(10.51deg)
+[synth loss30_oblique t13] no_hv=miss(5.07deg) full_hv=miss(5.07deg)
+[synth loss30_oblique t14] no_hv=miss(7.24deg) full_hv=miss(7.24deg)
+[synth loss30_oblique t15] no_hv=miss(4.83deg) full_hv=miss(4.83deg)
+[synth loss30_oblique t16] no_hv=miss(4.25deg) full_hv=miss(4.25deg)
+[synth loss30_oblique t17] no_hv=miss(5.08deg) full_hv=miss(5.08deg)
+[synth loss30_oblique t18] no_hv=miss(3.05deg) full_hv=miss(3.05deg)
+[synth loss30_oblique t19] no_hv=miss(7.13deg) full_hv=miss(7.13deg)
+[synth loss60_aligned t0] no_hv=miss(0.15deg) full_hv=miss(8.91deg)
+[synth loss60_aligned t1] no_hv=miss(9.78deg) full_hv=miss(9.78deg)
+[synth loss60_aligned t2] no_hv=miss(10.32deg) full_hv=miss(3.99deg)
+[synth loss60_aligned t3] no_hv=miss(10.32deg) full_hv=miss(3.99deg)
+[synth loss60_aligned t4] no_hv=miss(8.63deg) full_hv=miss(5.56deg)
+[synth loss60_aligned t5] no_hv=miss(5.04deg) full_hv=miss(1.15deg)
+[synth loss60_aligned t6] no_hv=miss(5.04deg) full_hv=miss(1.15deg)
+[synth loss60_aligned t7] no_hv=miss(10.32deg) full_hv=miss(2.36deg)
+[synth loss60_aligned t8] no_hv=miss(5.04deg) full_hv=miss(1.15deg)
+[synth loss60_aligned t9] no_hv=miss(0.15deg) full_hv=miss(8.91deg)
+[synth loss60_aligned t10] no_hv=miss(7.19deg) full_hv=miss(5.56deg)
+[synth loss60_aligned t11] no_hv=miss(0.15deg) full_hv=miss(8.91deg)
+[synth loss60_aligned t12] no_hv=miss(9.78deg) full_hv=miss(2.51deg)
+[synth loss60_aligned t13] no_hv=miss(9.78deg) full_hv=miss(2.51deg)
+[synth loss60_aligned t14] no_hv=miss(3.70deg) full_hv=miss(3.70deg)
+[synth loss60_aligned t15] no_hv=miss(7.19deg) full_hv=miss(5.56deg)
+[synth loss60_aligned t16] no_hv=miss(7.11deg) full_hv=miss(5.56deg)
+[synth loss60_aligned t17] no_hv=miss(0.05deg) full_hv=miss(3.11deg)
+[synth loss60_aligned t18] no_hv=miss(0.15deg) full_hv=miss(8.91deg)
+[synth loss60_aligned t19] no_hv=miss(9.78deg) full_hv=miss(2.51deg)
+[synth loss60_oblique t0] no_hv=miss(7.95deg) full_hv=miss(7.95deg)
+[synth loss60_oblique t1] no_hv=miss(5.31deg) full_hv=miss(4.23deg)
+[synth loss60_oblique t2] no_hv=miss(6.74deg) full_hv=miss(6.74deg)
+[synth loss60_oblique t3] no_hv=miss(8.66deg) full_hv=miss(8.66deg)
+[synth loss60_oblique t4] no_hv=miss(8.80deg) full_hv=miss(3.87deg)
+[synth loss60_oblique t5] no_hv=miss(8.22deg) full_hv=miss(7.58deg)
+[synth loss60_oblique t6] no_hv=miss(10.26deg) full_hv=miss(10.26deg)
+[synth loss60_oblique t7] no_hv=miss(10.40deg) full_hv=miss(8.39deg)
+[synth loss60_oblique t8] no_hv=miss(5.73deg) full_hv=miss(3.07deg)
+[synth loss60_oblique t9] no_hv=miss(5.27deg) full_hv=miss(5.27deg)
+[synth loss60_oblique t10] no_hv=miss(9.80deg) full_hv=ok(0.09deg)
+[synth loss60_oblique t11] no_hv=miss(10.40deg) full_hv=miss(6.11deg)
+[synth loss60_oblique t12] no_hv=miss(1.35deg) full_hv=miss(5.17deg)
+[synth loss60_oblique t13] no_hv=miss(0.02deg) full_hv=miss(3.22deg)
+[synth loss60_oblique t14] no_hv=miss(7.13deg) full_hv=miss(8.98deg)
+[synth loss60_oblique t15] no_hv=miss(4.38deg) full_hv=miss(4.38deg)
+[synth loss60_oblique t16] no_hv=miss(5.04deg) full_hv=miss(9.51deg)
+[synth loss60_oblique t17] no_hv=miss(7.95deg) full_hv=miss(7.95deg)
+[synth loss60_oblique t18] no_hv=miss(7.95deg) full_hv=ok(0.07deg)
+[synth loss60_oblique t19] no_hv=miss(8.48deg) full_hv=ok(0.07deg)
+[real S1_defect_30pct t0] no_hv=1.798mm full_hv=1.798mm
+[real S1_defect_30pct t1] no_hv=1.798mm full_hv=1.798mm
+[real S1_defect_30pct t2] no_hv=1.798mm full_hv=1.798mm
+[real S1_defect_30pct t3] no_hv=1.798mm full_hv=1.798mm
+[real S1_defect_30pct t4] no_hv=1.798mm full_hv=1.798mm
+[real S1_defect_30pct t5] no_hv=1.798mm full_hv=1.798mm
+[real S1_defect_30pct t6] no_hv=1.798mm full_hv=1.798mm
+[real S1_defect_30pct t7] no_hv=1.798mm full_hv=1.798mm
+[real S1_defect_30pct t8] no_hv=1.798mm full_hv=1.798mm
+[real S1_defect_30pct t9] no_hv=1.798mm full_hv=1.798mm
+[real S1_defect_30pct t10] no_hv=1.798mm full_hv=1.798mm
+[real S1_defect_30pct t11] no_hv=1.798mm full_hv=1.798mm
+[real S1_defect_30pct t12] no_hv=1.798mm full_hv=1.798mm
+[real S1_defect_30pct t13] no_hv=1.798mm full_hv=1.798mm
+[real S1_defect_30pct t14] no_hv=1.798mm full_hv=1.798mm
+[real S1_defect_30pct t15] no_hv=1.798mm full_hv=1.798mm
+[real S1_defect_30pct t16] no_hv=1.798mm full_hv=1.798mm
+[real S1_defect_30pct t17] no_hv=1.798mm full_hv=1.798mm
+[real S1_defect_30pct t18] no_hv=1.798mm full_hv=1.798mm
+[real S1_defect_30pct t19] no_hv=1.798mm full_hv=1.798mm
+[real S2_defective t0] no_hv=2.118mm full_hv=2.118mm
+[real S2_defective t1] no_hv=2.120mm full_hv=2.120mm
+[real S2_defective t2] no_hv=2.120mm full_hv=2.120mm
+[real S2_defective t3] no_hv=2.119mm full_hv=2.119mm
+[real S2_defective t4] no_hv=2.204mm full_hv=2.204mm
+[real S2_defective t5] no_hv=2.303mm full_hv=2.303mm
+[real S2_defective t6] no_hv=2.116mm full_hv=2.116mm
+[real S2_defective t7] no_hv=2.117mm full_hv=2.117mm
+[real S2_defective t8] no_hv=2.120mm full_hv=2.120mm
+[real S2_defective t9] no_hv=2.294mm full_hv=2.294mm
+[real S2_defective t10] no_hv=2.294mm full_hv=2.294mm
+[real S2_defective t11] no_hv=2.121mm full_hv=2.121mm
+[real S2_defective t12] no_hv=2.120mm full_hv=2.120mm
+[real S2_defective t13] no_hv=2.120mm full_hv=2.120mm
+[real S2_defective t14] no_hv=2.120mm full_hv=2.120mm
+[real S2_defective t15] no_hv=2.118mm full_hv=2.118mm
+[real S2_defective t16] no_hv=2.116mm full_hv=2.116mm
+[real S2_defective t17] no_hv=2.117mm full_hv=2.117mm
+[real S2_defective t18] no_hv=2.120mm full_hv=2.120mm
+[real S2_defective t19] no_hv=2.120mm full_hv=2.120mm
+[real S3_fragment t0] no_hv=1.808mm full_hv=1.808mm
+[real S3_fragment t1] no_hv=1.806mm full_hv=1.806mm
+[real S3_fragment t2] no_hv=1.821mm full_hv=1.821mm
+[real S3_fragment t3] no_hv=1.807mm full_hv=1.807mm
+[real S3_fragment t4] no_hv=1.808mm full_hv=1.808mm
+[real S3_fragment t5] no_hv=1.807mm full_hv=1.807mm
+[real S3_fragment t6] no_hv=1.808mm full_hv=1.808mm
+[real S3_fragment t7] no_hv=1.825mm full_hv=1.825mm
+[real S3_fragment t8] no_hv=1.683mm full_hv=1.683mm
+[real S3_fragment t9] no_hv=1.808mm full_hv=1.808mm
+[real S3_fragment t10] no_hv=1.822mm full_hv=1.822mm
+[real S3_fragment t11] no_hv=1.824mm full_hv=1.824mm
+[real S3_fragment t12] no_hv=1.807mm full_hv=1.807mm
+[real S3_fragment t13] no_hv=1.674mm full_hv=1.674mm
+[real S3_fragment t14] no_hv=1.825mm full_hv=1.825mm
+[real S3_fragment t15] no_hv=1.652mm full_hv=1.652mm
+[real S3_fragment t16] no_hv=1.823mm full_hv=1.823mm
+[real S3_fragment t17] no_hv=1.807mm full_hv=1.807mm
+[real S3_fragment t18] no_hv=1.804mm full_hv=1.804mm
+[real S3_fragment t19] no_hv=1.843mm full_hv=1.843mm
+saved results/e3_hv_ablation_full.json
+{
+  "loss0|no_hv": {
+    "n_ok": 20,
+    "n_err": 0,
+    "success": "0/20",
+    "success_exact95": [
+      0.0,
+      0.16843347098308548
+    ],
+    "rre_sym_median": 5.074057326195184,
+    "rre_sym_p75": 5.074057326195652,
+    "rte_sym_median": 0.03061502113575186
+  },
+  "loss0|full_hv": {
+    "n_ok": 20,
+    "n_err": 0,
+    "success": "0/20",
+    "success_exact95": [
+      0.0,
+      0.16843347098308548
+    ],
+    "rre_sym_median": 5.074057326195184,
+    "rre_sym_p75": 5.074057326195652,
+    "rte_sym_median": 0.03061502113575186
+  },
+  "loss0|paired": {
+    "n_paired": 20,
+    "n_err_treated_as_failure": 0,
+    "mcnemar_no_vs_yes": "0vs0",
+    "mcnemar_exact_p": 1.0,
+    "success_diff(full-no)_pp": 0.0,
+    "success_diff_boot95": [
+      0.0,
+      0.0
+    ],
+    "rre_sym_diff(full-no)_deg": 0.0,
+    "rre_sym_diff(full-no)_deg_boot95": [
+      0.0,
+      0.0
+    ],
+    "mcnemar_holm_p": 1.0
+  },
+  "loss30_aligned|no_hv": {
+    "n_ok": 20,
+    "n_err": 0,
+    "success": "0/20",
+    "success_exact95": [
+      0.0,
+      0.16843347098308548
+    ],
+    "rre_sym_median": 6.1352164984268205,
+    "rre_sym_p75": 8.051667576837662,
+    "rte_sym_median": 0.030866381969736928
+  },
+  "loss30_aligned|full_hv": {
+    "n_ok": 20,
+    "n_err": 0,
+    "success": "6/20",
+    "success_exact95": [
+      0.11893159040572766,
+      0.5427891822764719
+    ],
+    "rre_sym_median": 2.854251280319553,
+    "rre_sym_p75": 5.648019499083128,
+    "rte_sym_median": 0.031190066629081626
+  },
+  "loss30_aligned|paired": {
+    "n_paired": 20,
+    "n_err_treated_as_failure": 0,
+    "mcnemar_no_vs_yes": "0vs6",
+    "mcnemar_exact_p": 0.03125,
+    "success_diff(full-no)_pp": 30.0,
+    "success_diff_boot95": [
+      10.0,
+      50.0
+    ],
+    "rre_sym_diff(full-no)_deg": -3.2982972846900194,
+    "rre_sym_diff(full-no)_deg_boot95": [
+      -5.051034212247194,
+      0.0
+    ],
+    "mcnemar_holm_p": 0.15625
+  },
+  "loss30_oblique|no_hv": {
+    "n_ok": 20,
+    "n_err": 0,
+    "success": "1/20",
+    "success_exact95": [
+      0.0012650894979560339,
+      0.24873276277202772
+    ],
+    "rre_sym_median": 5.081654488213543,
+    "rre_sym_p75": 7.119745677436889,
+    "rte_sym_median": 0.0307405751099519
+  },
+  "loss30_oblique|full_hv": {
+    "n_ok": 20,
+    "n_err": 0,
+    "success": "2/20",
+    "success_exact95": [
+      0.012348527170295887,
+      0.3169827140190792
+    ],
+    "rre_sym_median": 5.076246792009385,
+    "rre_sym_p75": 6.936775391564019,
+    "rte_sym_median": 0.030712452224833937
+  },
+  "loss30_oblique|paired": {
+    "n_paired": 20,
+    "n_err_treated_as_failure": 0,
+    "mcnemar_no_vs_yes": "0vs1",
+    "mcnemar_exact_p": 1.0,
+    "success_diff(full-no)_pp": 5.0,
+    "success_diff_boot95": [
+      0.0,
+      15.000000000000002
+    ],
+    "rre_sym_diff(full-no)_deg": 0.0,
+    "rre_sym_diff(full-no)_deg_boot95": [
+      0.0,
+      0.0
+    ],
+    "mcnemar_holm_p": 1.0
+  },
+  "loss60_aligned|no_hv": {
+    "n_ok": 20,
+    "n_err": 0,
+    "success": "0/20",
+    "success_exact95": [
+

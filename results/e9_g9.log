@@ -1,0 +1,228 @@
+    cand vis_all (12f): 6/10 med=0.138
+    cand vis_nodup (12f): 6/10 med=0.138
+    cand greedy8_vis (8f): 6/10 med=0.143
+    cand areaxcov8 (8f): 6/10 med=0.194
+    cand nodup_one_plane (8f): 0/10 med=13.571
+    cand nodup_top (8f): 6/10 med=0.194
+  [21638 S1v20] per-view subset = vis_all [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12] -> 6/10
+  21638 S1v20 arms done
+    cand vis_all (12f): 6/10 med=0.150
+    cand vis_nodup (12f): 6/10 med=0.150
+    cand greedy8_vis (8f): 6/10 med=0.157
+    cand areaxcov8 (8f): 6/10 med=0.197
+    cand nodup_one_plane (8f): 0/10 med=14.110
+    cand nodup_top (8f): 6/10 med=0.197
+  [21638 S1v14] per-view subset = vis_all [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12] -> 6/10
+  21638 S1v14 arms done
+    cand vis_all (12f): 6/10 med=0.191
+    cand vis_nodup (12f): 6/10 med=0.191
+    cand greedy8_vis (8f): 0/10 med=14.106
+    cand areaxcov8 (8f): 4/10 med=14.783
+    cand nodup_one_plane (8f): 0/10 med=17.343
+    cand nodup_top (8f): 4/10 med=14.783
+  [21638 S2v12] per-view subset = vis_all [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12] -> 6/10
+  21638 S2v12 arms done
+    cand vis_all (12f): 7/10 med=0.165
+    cand vis_nodup (12f): 7/10 med=0.165
+    cand greedy8_vis (8f): 0/10 med=14.130
+    cand areaxcov8 (8f): 6/10 med=0.206
+    cand nodup_one_plane (8f): 0/10 med=14.112
+    cand nodup_top (8f): 6/10 med=0.206
+  [21638 S2v22] per-view subset = vis_all [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12] -> 7/10
+  21638 S2v22 arms done
+    cand vis_all (12f): 6/10 med=0.119
+    cand vis_nodup (12f): 6/10 med=0.119
+    cand greedy8_vis (8f): 0/10 med=14.113
+    cand areaxcov8 (8f): 5/10 med=4.551
+    cand nodup_one_plane (8f): 0/10 med=14.090
+    cand nodup_top (8f): 5/10 med=4.551
+  [21638 S3v24] per-view subset = vis_all [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12] -> 6/10
+  21638 S3v24 arms done
+    cand vis_all (11f): 5/10 med=5.034
+    cand vis_nodup (11f): 5/10 med=5.034
+    cand greedy8_vis (8f): 5/10 med=4.997
+    cand areaxcov8 (8f): 4/10 med=10.112
+    cand nodup_one_plane (8f): 0/10 med=26.318
+    cand nodup_top (8f): 4/10 med=10.112
+  [21638 S3v16f] per-view subset = greedy8_vis [0, 1, 2, 4, 6, 8, 9, 12] -> 5/10
+  21638 S3v16f arms done
+    cand vis_all (12f): 5/10 med=7.308
+    cand vis_nodup (12f): 5/10 med=7.308
+    cand greedy8_vis (7f): 5/10 med=7.299
+    cand areaxcov8 (8f): 0/10 med=7.121
+    cand nodup_one_plane (8f): 5/10 med=7.054
+    cand nodup_top (8f): 0/10 med=7.121
+  [21644 S1v13] per-view subset = nodup_one_plane [0, 1, 2, 3, 4, 5, 6, 7] -> 5/10
+  21644 S1v13 arms done
+    cand vis_all (10f): 7/10 med=0.204
+    cand vis_nodup (10f): 7/10 med=0.204
+    cand greedy8_vis (7f): 0/10 med=0.780
+    cand areaxcov8 (8f): 0/10 med=0.837
+    cand nodup_one_plane (8f): 7/10 med=0.154
+    cand nodup_top (8f): 0/10 med=0.837
+  [21644 S1v11] per-view subset = nodup_one_plane [0, 1, 2, 4, 5, 6, 7, 8] -> 7/10
+  21644 S1v11 arms done
+    cand vis_all (6f): 0/10 med=4.562
+    cand vis_nodup (6f): 0/10 med=4.562
+    cand greedy8_vis (5f): 0/10 med=0.669
+    cand areaxcov8 (6f): 0/10 med=4.562
+    cand nodup_one_plane (6f): 0/10 med=4.562
+  [21644 S2v04] per-view subset = greedy8_vis [1, 2, 5, 11, 12] -> 0/10
+  21644 S2v04 arms done
+    cand vis_all (11f): 10/10 med=0.192
+    cand vis_nodup (11f): 10/10 med=0.192
+    cand greedy8_vis (7f): 10/10 med=0.108
+    cand areaxcov8 (8f): 10/10 med=0.329
+    cand nodup_one_plane (8f): 10/10 med=0.149
+    cand nodup_top (8f): 10/10 med=0.329
+  [21644 S2v15] per-view subset = greedy8_vis [0, 1, 2, 6, 7, 8, 10] -> 10/10
+  21644 S2v15 arms done
+    cand vis_all (9f): 9/10 med=0.299
+    cand vis_nodup (9f): 9/10 med=0.299
+    cand greedy8_vis (7f): 9/10 med=0.371
+    cand areaxcov8 (8f): 9/10 med=0.299
+    cand nodup_one_plane (8f): 10/10 med=0.300
+    cand nodup_top (8f): 9/10 med=0.299
+  [21644 S3v05] per-view subset = nodup_one_plane [0, 1, 4, 5, 6, 7, 8, 9] -> 10/10
+  21644 S3v05 arms done
+    cand vis_all (11f): 6/10 med=0.231
+    cand vis_nodup (11f): 6/10 med=0.231
+    cand greedy8_vis (7f): 0/10 med=0.606
+    cand areaxcov8 (8f): 0/10 med=0.678
+    cand nodup_one_plane (8f): 7/10 med=0.230
+    cand nodup_top (8f): 0/10 med=0.678
+  [21644 S3v19] per-view subset = nodup_one_plane [0, 1, 2, 3, 4, 5, 6, 7] -> 7/10
+  21644 S3v19 arms done
+    cand vis_all (13f): 8/10 med=0.096
+    cand vis_nodup (13f): 8/10 med=0.096
+    cand greedy8_vis (8f): 0/10 med=14.721
+    cand areaxcov8 (8f): 9/10 med=0.093
+    cand nodup_one_plane (8f): 2/10 med=23.457
+    cand nodup_top (8f): 9/10 med=0.093
+  [29726 S1v17] per-view subset = areaxcov8 [2, 3, 4, 5, 9, 10, 13, 14] -> 9/10
+  29726 S1v17 arms done
+    cand vis_all (6f): 7/10 med=0.271
+    cand vis_nodup (6f): 7/10 med=0.271
+    cand greedy8_vis (5f): 6/10 med=0.271
+    cand areaxcov8 (6f): 7/10 med=0.271
+    cand nodup_one_plane (6f): 7/10 med=0.271
+  [29726 S1v14] per-view subset = areaxcov8 [0, 2, 7, 8, 11, 12] -> 7/10
+  29726 S1v14 arms done
+    cand vis_all (13f): 10/10 med=0.116
+    cand vis_nodup (13f): 10/10 med=0.116
+    cand greedy8_vis (8f): 9/10 med=0.116
+    cand areaxcov8 (8f): 9/10 med=0.117
+    cand nodup_one_plane (8f): 8/10 med=0.386
+    cand nodup_top (8f): 9/10 med=0.117
+  [29726 S2v21] per-view subset = vis_all [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 14] -> 10/10
+  29726 S2v21 arms done
+    cand vis_all (5f): 0/10 med=12.246
+    cand vis_nodup (5f): 0/10 med=12.246
+    cand greedy8_vis (4f): 0/10 med=12.242
+    cand areaxcov8 (5f): 0/10 med=12.246
+    cand nodup_one_plane (5f): 0/10 med=12.246
+  [29726 S2v22] per-view subset = greedy8_vis [0, 7, 8, 12] -> 0/10
+  29726 S2v22 arms done
+    cand vis_all (13f): 10/10 med=0.224
+    cand vis_nodup (13f): 10/10 med=0.224
+    cand greedy8_vis (8f): 10/10 med=0.228
+    cand areaxcov8 (8f): 10/10 med=0.227
+    cand nodup_one_plane (8f): 9/10 med=0.252
+    cand nodup_top (8f): 10/10 med=0.227
+  [29726 S3v11f] per-view subset = vis_all [0, 1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14] -> 10/10
+  29726 S3v11f arms done
+    cand vis_all (14f): 5/10 med=4.920
+    cand vis_nodup (14f): 5/10 med=4.920
+    cand greedy8_vis (8f): 5/10 med=5.104
+    cand areaxcov8 (8f): 10/10 med=0.120
+    cand nodup_one_plane (8f): 3/10 med=12.672
+    cand nodup_top (8f): 10/10 med=0.120
+  [29726 S3v25] per-view subset = areaxcov8 [2, 3, 4, 5, 8, 10, 13, 14] -> 10/10
+  29726 S3v25 arms done
+    cand vis_all (7f): 0/10 med=11.789
+    cand vis_nodup (7f): 0/10 med=11.789
+    cand greedy8_vis (7f): 0/10 med=11.789
+    cand areaxcov8 (7f): 0/10 med=11.789
+    cand nodup_one_plane (7f): 0/10 med=11.789
+  [52890 S1v01] per-view subset = greedy8_vis [0, 1, 4, 5, 6, 7, 8] -> 0/10
+  52890 S1v01 arms done
+    cand vis_all (8f): 0/10 med=6.147
+    cand vis_nodup (8f): 0/10 med=6.147
+    cand greedy8_vis (7f): 0/10 med=6.137
+    cand areaxcov8 (8f): 0/10 med=6.147
+    cand nodup_one_plane (8f): 0/10 med=6.147
+  [52890 S1v00] per-view subset = greedy8_vis [0, 1, 4, 5, 6, 7, 8] -> 0/10
+  52890 S1v00 arms done
+    cand vis_all (8f): 1/10 med=9.463
+    cand vis_nodup (8f): 1/10 med=9.463
+    cand greedy8_vis (7f): 0/10 med=7.377
+    cand areaxcov8 (8f): 1/10 med=9.463
+    cand nodup_one_plane (8f): 1/10 med=9.463
+  [52890 S2v03] per-view subset = vis_all [0, 1, 2, 4, 5, 6, 7, 8] -> 1/10
+  52890 S2v03 arms done
+    cand vis_all (7f): 0/10 med=7.060
+    cand vis_nodup (7f): 0/10 med=7.060
+    cand greedy8_vis (7f): 0/10 med=7.060
+    cand areaxcov8 (7f): 0/10 med=7.060
+    cand nodup_one_plane (7f): 0/10 med=7.060
+  [52890 S2v02] per-view subset = vis_all [1, 2, 4, 5, 6, 7, 8] -> 0/10
+  52890 S2v02 arms done
+    cand vis_all (6f): 0/10 med=9.214
+    cand vis_nodup (6f): 0/10 med=9.214
+    cand greedy8_vis (6f): 0/10 med=9.214
+    cand areaxcov8 (6f): 0/10 med=9.214
+    cand nodup_one_plane (6f): 0/10 med=9.214
+  [52890 S3v14] per-view subset = greedy8_vis [1, 2, 4, 5, 6, 8] -> 0/10
+  52890 S3v14 arms done
+    cand vis_all (6f): 0/10 med=7.710
+    cand vis_nodup (6f): 0/10 med=7.710
+    cand greedy8_vis (6f): 0/10 med=7.710
+    cand areaxcov8 (6f): 0/10 med=7.710
+    cand nodup_one_plane (6f): 0/10 med=7.710
+  [52890 S3v16] per-view subset = greedy8_vis [1, 2, 4, 5, 6, 8] -> 0/10
+  52890 S3v16 arms done
+    cand vis_all (7f): 10/10 med=0.118
+    cand vis_nodup (7f): 10/10 med=0.118
+    cand greedy8_vis (6f): 10/10 med=0.132
+    cand areaxcov8 (7f): 10/10 med=0.118
+    cand nodup_one_plane (7f): 10/10 med=0.118
+  [25365 S1v18] per-view subset = vis_all [1, 2, 3, 5, 6, 7, 9] -> 10/10
+  25365 S1v18 arms done
+    cand vis_all (10f): 10/10 med=0.197
+    cand vis_nodup (10f): 10/10 med=0.197
+    cand greedy8_vis (8f): 10/10 med=0.197
+    cand areaxcov8 (8f): 10/10 med=0.197
+    cand nodup_one_plane (8f): 10/10 med=0.133
+    cand nodup_top (8f): 10/10 med=0.197
+  [25365 S1v24] per-view subset = nodup_one_plane [2, 3, 4, 5, 6, 7, 9, 10] -> 10/10
+  25365 S1v24 arms done
+    cand vis_all (7f): 8/10 med=0.109
+    cand vis_nodup (7f): 8/10 med=0.109
+    cand greedy8_vis (7f): 8/10 med=0.109
+    cand areaxcov8 (7f): 8/10 med=0.109
+    cand nodup_one_plane (7f): 8/10 med=0.109
+  [25365 S2v19] per-view subset = areaxcov8 [0, 1, 2, 3, 5, 7, 8] -> 8/10
+  25365 S2v19 arms done
+    cand vis_all (7f): 10/10 med=0.138
+    cand vis_nodup (7f): 10/10 med=0.138
+    cand greedy8_vis (7f): 10/10 med=0.138
+    cand areaxcov8 (7f): 10/10 med=0.138
+    cand nodup_one_plane (7f): 10/10 med=0.138
+  [25365 S2v22] per-view subset = areaxcov8 [1, 3, 4, 5, 6, 7, 9] -> 10/10
+  25365 S2v22 arms done
+    cand vis_all (3f): 0/10 med=4.599
+    cand vis_nodup (3f): 0/10 med=4.599
+    cand greedy8_vis (3f): 0/10 med=4.599
+    cand areaxcov8 (3f): 0/10 med=4.599
+    cand nodup_one_plane (3f): 0/10 med=4.599
+  [25365 S3v15f] per-view subset = areaxcov8 [0, 5, 7] -> 0/10
+  25365 S3v15f arms done
+    cand vis_all (10f): 10/10 med=0.096
+    cand vis_nodup (10f): 10/10 med=0.096
+    cand greedy8_vis (8f): 10/10 med=0.096
+    cand areaxcov8 (8f): 10/10 med=0.096
+    cand nodup_one_plane (8f): 10/10 med=0.096
+    cand nodup_top (8f): 10/10 med=0.096
+  [25365 S3v10] per-view subset = vis_all [1, 2, 3, 4, 5, 6, 7, 9, 10, 12] -> 10/10
+  25365 S3v10 arms done
+G9 CAMPAIGN DONE -> /home/ubclr/projects/new/geop2e/code/minimal/results/e9/g9.jsonl

@@ -1,0 +1,106 @@
+  tr00 ret=0.7 n= 96535 | icp_p2plane=2.773 geop2e_cal_oracle=2.946
+  tr01 ret=0.7 n= 96535 | icp_p2plane=3.470 geop2e_cal_oracle=5.293
+  tr02 ret=0.7 n= 96535 | icp_p2plane=3.601 geop2e_cal_oracle=4.011
+  tr03 ret=0.7 n= 96535 | icp_p2plane=3.444 geop2e_cal_oracle=5.742
+  tr04 ret=0.7 n= 96535 | icp_p2plane=3.435 geop2e_cal_oracle=6.007
+  tr05 ret=0.7 n= 96535 | icp_p2plane=3.387 geop2e_cal_oracle=4.426
+  tr06 ret=0.7 n= 96535 | icp_p2plane=3.632 geop2e_cal_oracle=4.028
+  tr07 ret=0.7 n= 96535 | icp_p2plane=3.218 geop2e_cal_oracle=3.309
+  tr08 ret=0.7 n= 96535 | icp_p2plane=3.340 geop2e_cal_oracle=4.005
+  tr09 ret=0.7 n= 96535 | icp_p2plane=3.444 geop2e_cal_oracle=3.438
+  tr00 ret=0.5 n=160891 | icp_p2plane=0.176 geop2e_cal_oracle=0.175
+  tr01 ret=0.5 n=160891 | icp_p2plane=0.174 geop2e_cal_oracle=0.173
+  tr02 ret=0.5 n=160891 | icp_p2plane=0.210 geop2e_cal_oracle=0.211
+  tr03 ret=0.5 n=160891 | icp_p2plane=0.208 geop2e_cal_oracle=0.210
+  tr04 ret=0.5 n=160891 | icp_p2plane=0.216 geop2e_cal_oracle=0.214
+  tr05 ret=0.5 n=160891 | icp_p2plane=0.178 geop2e_cal_oracle=0.178
+  tr06 ret=0.5 n=160891 | icp_p2plane=0.197 geop2e_cal_oracle=0.208
+  tr07 ret=0.5 n=160891 | icp_p2plane=0.190 geop2e_cal_oracle=0.195
+  tr08 ret=0.5 n=160891 | icp_p2plane=0.186 geop2e_cal_oracle=0.187
+  tr09 ret=0.5 n=160891 | icp_p2plane=0.213 geop2e_cal_oracle=0.211
+[21638_0a984848_73] done (218s)
+  tr00 ret=0.7 n= 51971 | icp_p2plane=0.115 geop2e_cal_oracle=0.253
+  tr01 ret=0.7 n= 51971 | icp_p2plane=0.113 geop2e_cal_oracle=0.353
+  tr02 ret=0.7 n= 51971 | icp_p2plane=0.113 geop2e_cal_oracle=0.411
+  tr03 ret=0.7 n= 51971 | icp_p2plane=0.113 geop2e_cal_oracle=0.401
+  tr04 ret=0.7 n= 51971 | icp_p2plane=0.124 geop2e_cal_oracle=0.149
+  tr05 ret=0.7 n= 51971 | icp_p2plane=0.113 geop2e_cal_oracle=0.369
+  tr06 ret=0.7 n= 51971 | icp_p2plane=0.122 geop2e_cal_oracle=0.388
+  tr07 ret=0.7 n= 51971 | icp_p2plane=0.114 geop2e_cal_oracle=0.120
+  tr08 ret=0.7 n= 51971 | icp_p2plane=0.207 geop2e_cal_oracle=0.210
+  tr09 ret=0.7 n= 51971 | icp_p2plane=0.113 geop2e_cal_oracle=0.436
+  tr00 ret=0.5 n= 86619 | icp_p2plane=0.124 geop2e_cal_oracle=0.136
+  tr01 ret=0.5 n= 86619 | icp_p2plane=0.114 geop2e_cal_oracle=0.407
+  tr02 ret=0.5 n= 86619 | icp_p2plane=0.119 geop2e_cal_oracle=0.369
+  tr03 ret=0.5 n= 86619 | icp_p2plane=0.115 geop2e_cal_oracle=0.512
+  tr04 ret=0.5 n= 86619 | icp_p2plane=0.124 geop2e_cal_oracle=0.293
+  tr05 ret=0.5 n= 86619 | icp_p2plane=0.114 geop2e_cal_oracle=0.376
+  tr06 ret=0.5 n= 86619 | icp_p2plane=0.126 geop2e_cal_oracle=0.370
+  tr07 ret=0.5 n= 86619 | icp_p2plane=0.115 geop2e_cal_oracle=0.374
+  tr08 ret=0.5 n= 86619 | icp_p2plane=0.118 geop2e_cal_oracle=0.379
+  tr09 ret=0.5 n= 86619 | icp_p2plane=0.118 geop2e_cal_oracle=0.378
+[21644_aa203dc5_3] done (84s)
+  tr00 ret=0.7 n= 61720 | icp_p2plane=0.136 geop2e_cal_oracle=0.143
+  tr01 ret=0.7 n= 61720 | icp_p2plane=0.137 geop2e_cal_oracle=0.137
+  tr02 ret=0.7 n= 61720 | icp_p2plane=0.131 geop2e_cal_oracle=0.135
+  tr03 ret=0.7 n= 61720 | icp_p2plane=0.250 geop2e_cal_oracle=0.168
+  tr04 ret=0.7 n= 61720 | icp_p2plane=0.126 geop2e_cal_oracle=0.132
+  tr05 ret=0.7 n= 61720 | icp_p2plane=0.123 geop2e_cal_oracle=0.138
+  tr06 ret=0.7 n= 61720 | icp_p2plane=0.131 geop2e_cal_oracle=0.139
+  tr07 ret=0.7 n= 61720 | icp_p2plane=0.146 geop2e_cal_oracle=0.178
+  tr08 ret=0.7 n= 61720 | icp_p2plane=0.132 geop2e_cal_oracle=0.137
+  tr09 ret=0.7 n= 61720 | icp_p2plane=0.126 geop2e_cal_oracle=0.132
+  tr00 ret=0.5 n=102866 | icp_p2plane=0.129 geop2e_cal_oracle=0.131
+  tr01 ret=0.5 n=102866 | icp_p2plane=0.141 geop2e_cal_oracle=0.153
+  tr02 ret=0.5 n=102866 | icp_p2plane=0.124 geop2e_cal_oracle=0.136
+  tr03 ret=0.5 n=102866 | icp_p2plane=0.139 geop2e_cal_oracle=0.144
+  tr04 ret=0.5 n=102866 | icp_p2plane=0.126 geop2e_cal_oracle=0.136
+  tr05 ret=0.5 n=102866 | icp_p2plane=0.129 geop2e_cal_oracle=0.137
+  tr06 ret=0.5 n=102866 | icp_p2plane=0.130 geop2e_cal_oracle=0.137
+  tr07 ret=0.5 n=102866 | icp_p2plane=0.148 geop2e_cal_oracle=0.149
+  tr08 ret=0.5 n=102866 | icp_p2plane=0.166 geop2e_cal_oracle=0.185
+  tr09 ret=0.5 n=102866 | icp_p2plane=0.129 geop2e_cal_oracle=0.139
+[29726_73b01e1f_0] done (132s)
+  tr00 ret=0.7 n= 19228 | icp_p2plane=0.180 geop2e_cal_oracle=0.085
+  tr01 ret=0.7 n= 19228 | icp_p2plane=1.884 geop2e_cal_oracle=2.203
+  tr02 ret=0.7 n= 19228 | icp_p2plane=0.075 geop2e_cal_oracle=0.075
+  tr03 ret=0.7 n= 19228 | icp_p2plane=0.250 geop2e_cal_oracle=0.100
+  tr04 ret=0.7 n= 19228 | icp_p2plane=0.488 geop2e_cal_oracle=0.101
+  tr05 ret=0.7 n= 19228 | icp_p2plane=0.496 geop2e_cal_oracle=0.102
+  tr06 ret=0.7 n= 19228 | icp_p2plane=0.495 geop2e_cal_oracle=0.104
+  tr07 ret=0.7 n= 19228 | icp_p2plane=1.021 geop2e_cal_oracle=1.141
+  tr08 ret=0.7 n= 19228 | icp_p2plane=0.965 geop2e_cal_oracle=0.974
+  tr09 ret=0.7 n= 19228 | icp_p2plane=1.179 geop2e_cal_oracle=1.740
+  tr00 ret=0.5 n= 32047 | icp_p2plane=0.076 geop2e_cal_oracle=0.075
+  tr01 ret=0.5 n= 32047 | icp_p2plane=0.083 geop2e_cal_oracle=0.083
+  tr02 ret=0.5 n= 32047 | icp_p2plane=1.377 geop2e_cal_oracle=1.444
+  tr03 ret=0.5 n= 32047 | icp_p2plane=1.313 geop2e_cal_oracle=1.394
+  tr04 ret=0.5 n= 32047 | icp_p2plane=1.415 geop2e_cal_oracle=1.484
+  tr05 ret=0.5 n= 32047 | icp_p2plane=2.256 geop2e_cal_oracle=2.338
+  tr06 ret=0.5 n= 32047 | icp_p2plane=0.084 geop2e_cal_oracle=0.083
+  tr07 ret=0.5 n= 32047 | icp_p2plane=0.083 geop2e_cal_oracle=0.082
+  tr08 ret=0.5 n= 32047 | icp_p2plane=0.084 geop2e_cal_oracle=0.084
+  tr09 ret=0.5 n= 32047 | icp_p2plane=0.076 geop2e_cal_oracle=0.076
+[52890_7ae554d9_1] done (72s)
+  tr00 ret=0.7 n= 42802 | icp_p2plane=3.248 geop2e_cal_oracle=1.329
+  tr01 ret=0.7 n= 42802 | icp_p2plane=0.183 geop2e_cal_oracle=0.182
+  tr02 ret=0.7 n= 42802 | icp_p2plane=0.193 geop2e_cal_oracle=0.191
+  tr03 ret=0.7 n= 42802 | icp_p2plane=2.545 geop2e_cal_oracle=0.192
+  tr04 ret=0.7 n= 42802 | icp_p2plane=0.154 geop2e_cal_oracle=0.144
+  tr05 ret=0.7 n= 42802 | icp_p2plane=1.834 geop2e_cal_oracle=2.049
+  tr06 ret=0.7 n= 42802 | icp_p2plane=2.309 geop2e_cal_oracle=2.442
+  tr07 ret=0.7 n= 42802 | icp_p2plane=0.146 geop2e_cal_oracle=0.141
+  tr08 ret=0.7 n= 42802 | icp_p2plane=1.546 geop2e_cal_oracle=2.411
+  tr09 ret=0.7 n= 42802 | icp_p2plane=2.437 geop2e_cal_oracle=0.127
+  tr00 ret=0.5 n= 71336 | icp_p2plane=0.168 geop2e_cal_oracle=0.153
+  tr01 ret=0.5 n= 71336 | icp_p2plane=0.156 geop2e_cal_oracle=0.134
+  tr02 ret=0.5 n= 71336 | icp_p2plane=0.127 geop2e_cal_oracle=0.129
+  tr03 ret=0.5 n= 71336 | icp_p2plane=0.132 geop2e_cal_oracle=0.132
+  tr04 ret=0.5 n= 71336 | icp_p2plane=0.126 geop2e_cal_oracle=0.126
+  tr05 ret=0.5 n= 71336 | icp_p2plane=0.306 geop2e_cal_oracle=0.289
+  tr06 ret=0.5 n= 71336 | icp_p2plane=0.148 geop2e_cal_oracle=0.147
+  tr07 ret=0.5 n= 71336 | icp_p2plane=0.135 geop2e_cal_oracle=0.134
+  tr08 ret=0.5 n= 71336 | icp_p2plane=0.140 geop2e_cal_oracle=0.140
+  tr09 ret=0.5 n= 71336 | icp_p2plane=0.151 geop2e_cal_oracle=0.141
+[25365_14519ce1_0] done (117s)
+saved /home/ubclr/projects/new/geop2e/code/minimal/results/e8h_defect.json

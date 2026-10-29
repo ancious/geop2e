@@ -1,0 +1,44 @@
+saved /home/ubclr/projects/new/geop2e/code/minimal/results/e3c_loss0_diagnostic.json
+{
+ "gt_start_analytic_60": {
+  "init_rre": 0.0,
+  "final_rre": 5.074057326194752,
+  "final_rte": 0.030615021135749498,
+  "iters": 60,
+  "update_norm": 0.0014871204590281087,
+  "after_1_iter_rre": 0.4826066382701091
+ },
+ "gt_start_numerical_60": {
+  "init_rre": 0.0,
+  "final_rre": 5.074057326192019,
+  "final_rte": 0.03061502113539323,
+  "iters": 60,
+  "update_norm": 0.0014871204586506517,
+  "after_1_iter_rre": 0.48260663831844247
+ },
+ "coarse_start_analytic_60": {
+  "init_rre": 1.1297179544580738,
+  "final_rre": 5.074057326195472,
+  "final_rte": 0.030615021135754955,
+  "iters": 60,
+  "update_norm": 0.0014871204590288793,
+  "after_1_iter_rre": 1.0398825258034847
+ },
+ "gt_start_analytic_120": {
+  "init_rre": 0.0,
+  "final_rre": 5.072915933916075,
+  "final_rte": 0.036216588846862,
+  "iters": 113,
+  "update_norm": 1.1903901516230538e-09,
+  "after_1_iter_rre": 0.4826066382701091
+ },
+ "coarse_start_numerical_60": {
+  "init_rre": 1.1297179544580738,
+  "final_rre": 5.074057326193314,
+  "final_rte": 0.030615021135897074,
+  "iters": 60,
+  "update_norm": 0.0014871204596079923,
+  "after_1_iter_rre": 1.039882525825216
+ }
+}
+yaw objective min at {'yaw_deg': 1.0, 'objective': 0.046850197850148954, 'n_active': 4745, 'rre_deg': 0.9999999999999002}

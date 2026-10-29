@@ -1,0 +1,14 @@
+gear part: 158 merged supports {'plane': 2, 'cylinder': 156} analytic-assigned coverage=1.000
+
+== S1_defect_30pct (production=2.34, best-ICP=0.377) ==
+  auto_A1            p2m_med=2.396 p95=11.090 inlier=44.4% t=-1787716131.9s
+  auto_full(A4+HV)   p2m_med=2.289 p95=10.372 inlier=45.4% t=134.5s
+
+== S2_defective (production=0.425, best-ICP=0.377) ==
+  auto_A1            p2m_med=1.151 p95=4.541 inlier=67.8% t=-1787716097.9s
+  auto_full(A4+HV)   p2m_med=0.432 p95=3.430 inlier=83.1% t=768.1s
+
+== S3_fragment (production=1.8, best-ICP=1.31) ==
+  auto_A1            p2m_med=1.769 p95=4.247 inlier=56.3% t=-1787716137.7s
+  auto_full(A4+HV)   p2m_med=1.173 p95=3.515 inlier=68.6% t=1239.3s
+saved /home/ubclr/projects/new/geop2e/code/minimal/results/e6_gear_retro.json

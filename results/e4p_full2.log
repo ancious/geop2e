@@ -1,0 +1,30 @@
+35 test parts
+resume: 546 trials done, 26 parts complete -> skipped
+49019_748c9a9f_19.stp: A3 picked all (n=6, U=0.0091, alarm=True)
+  49019_748c9a9f_19. c0 t0: ICP ok (0.0) | prod X (6.9) | auto ok (0.9)
+  49019_748c9a9f_19. c0 t1: ICP X (18.8) | prod X (17.9) | auto X (18.0)
+  49019_748c9a9f_19. c0 t2: ICP X (21.9) | prod X (20.1) | auto X (27.6)
+  49019_748c9a9f_19. c1 t0: ICP ok (0.3) | prod ok (0.5) | auto ok (0.7)
+  49019_748c9a9f_19. c1 t1: ICP X (13.4) | prod X (13.1) | auto X (5.8)
+  49019_748c9a9f_19. c1 t2: ICP X (34.5) | prod X (33.4) | auto X (41.0)
+  49019_748c9a9f_19. c2 t0: ICP X (139.0) | prod X (36.8) | auto X (37.2)
+  49019_748c9a9f_19. c2 t1: ICP ok (0.2) | prod ok (1.0) | auto ok (1.2)
+  49019_748c9a9f_19. c2 t2: ICP X (21.5) | prod X (21.7) | auto X (29.2)
+  49019_748c9a9f_19. c3 t0: ICP X (80.7) | prod X (26.0) | auto X (29.5)
+  49019_748c9a9f_19. c3 t1: ICP X (145.5) | prod X (36.6) | auto X (33.0)
+/home/ubclr/projects/new/geop2e/code/solver.py:28: RuntimeWarning: Mean of empty slice
+  centroid = points.mean(axis=0)
+/home/ubclr/miniconda3/envs/geo/lib/python3.11/site-packages/numpy/_core/_methods.py:134: RuntimeWarning: invalid value encountered in divide
+  ret = um.true_divide(
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+[1;33m[Open3D WARNING] [KDTreeFlann::SetRawData] Failed due to no data.[0;m
+Traceback (most recent call last):
+  File "/home/ubclr/projects/new/geop2e/code/minimal/e4p_parsed_study.py", line 263, in <module>
+    main()
+  File "/home/ubclr/projects/new/geop2e/code/minimal/e4p_parsed_study.py", line 249, in main
+    run_part(rec, tcad, sel_idx, abs(hash(rec["part"])) % 10 ** 6, rows)
+  File "/home/ubclr/projects/new/geop2e/code/minimal/e4p_parsed_study.py", line 140, in run_part
+    fs = o3d.pipelines.registration.compute_fpfh_feature(sd, o3d.geometry.KDTreeSearchParamHybrid(radius=0.05 * D, max_nn=100))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: [1;31m[Open3D Error] (std::shared_ptr<open3d::pipelines::registration::Feature> open3d::pipelines::registration::ComputeFPFHFeature(const open3d::geometry::PointCloud&, const open3d::geometry::KDTreeSearchParam&)) /root/Open3D/cpp/open3d/pipelines/registration/Feature.cpp:126: Failed because input point cloud has no normal.
+[0;m

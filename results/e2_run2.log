@@ -1,0 +1,90 @@
+Starting scale solver (only selecting inliers if scale estimation has been disabled).
+Scale estimation complete.
+Max core number: 17
+Num vertices: 199
+Max Clique of scale estimation inliers: 
+Using chain graph for GNC rotation.
+Starting rotation solver.
+GNC rotation estimation noise bound:2
+GNC rotation estimation noise bound squared:4
+GNC-TLS solver terminated due to cost convergence.
+Cost diff: 0
+Iterations: 21
+Rotation estimation complete.
+Starting translation solver.
+Translation estimation complete.
+  [warn] FGR recomputation differs from cache for S1_defect_30pct
+
+== S1_defect_30pct (262420 pts) ==
+Starting scale solver (only selecting inliers if scale estimation has been disabled).
+Scale estimation complete.
+Max core number: 19
+Num vertices: 222
+Max Clique of scale estimation inliers: 
+Using chain graph for GNC rotation.
+Starting rotation solver.
+GNC rotation estimation noise bound:2
+GNC rotation estimation noise bound squared:4
+GNC-TLS solver terminated due to cost convergence.
+Cost diff: 0
+Iterations: 19
+Rotation estimation complete.
+Starting translation solver.
+Translation estimation complete.
+  FGR                        p2m_med=2.606 p95=7.993 inlier=42.4% t=0.75s
+  FGR+ICP_p2plane            p2m_med=0.381 p95=3.507 inlier=83.3% t=5.95s
+  FGR+ICP_p2p                p2m_med=0.408 p95=3.552 inlier=83.0% t=5.97s
+  FGR+GICP                   p2m_med=2.771 p95=8.787 inlier=41.8% t=1.60s
+  FGR+TrimmedICP             p2m_med=2.434 p95=7.115 inlier=43.3% t=22.74s
+  FGR+SparseICP              p2m_med=1.971 p95=6.379 inlier=50.6% t=10.81s
+  TEASER++                   p2m_med=1.483 p95=7.173 inlier=59.6% t=1.31s
+  TEASER+++ICP_p2plane       p2m_med=0.395 p95=3.474 inlier=83.0% t=3.53s
+  Super4PCS                  p2m_med=0.941 p95=4.041 inlier=72.4% t=0.38s
+  Super4PCS+ICP_p2plane      p2m_med=0.397 p95=3.499 inlier=83.2% t=2.06s
+  RPMNet_zero_shot           p2m_med=1.189 p95=4.036 inlier=72.7% t=1.04s(infer-only)
+  GeoP2E(FGR-init,production) p2m_med=1.798 p95=5.734 inlier=53.4% t=13.09s
+  [warn] FGR recomputation differs from cache for S2_defective
+
+== S2_defective (266370 pts) ==
+Starting scale solver (only selecting inliers if scale estimation has been disabled).
+Scale estimation complete.
+Max core number: 7
+Num vertices: 96
+Max Clique of scale estimation inliers: 
+Using chain graph for GNC rotation.
+Starting rotation solver.
+GNC rotation estimation noise bound:2
+GNC rotation estimation noise bound squared:4
+GNC-TLS solver terminated due to cost convergence.
+Cost diff: 0
+Iterations: 7
+Rotation estimation complete.
+Starting translation solver.
+Translation estimation complete.
+  FGR                        p2m_med=2.280 p95=10.050 inlier=46.0% t=1.15s
+  FGR+ICP_p2plane            p2m_med=0.382 p95=3.503 inlier=83.2% t=3.59s
+  FGR+ICP_p2p                p2m_med=0.632 p95=3.502 inlier=83.0% t=5.97s
+  FGR+GICP                   p2m_med=0.393 p95=3.653 inlier=82.9% t=8.37s
+  FGR+TrimmedICP             p2m_med=1.467 p95=7.779 inlier=59.7% t=15.47s
+  FGR+SparseICP              p2m_med=1.524 p95=8.058 inlier=58.4% t=9.21s
+  TEASER++                   p2m_med=1.615 p95=5.051 inlier=57.7% t=1.27s
+  TEASER+++ICP_p2plane       p2m_med=0.383 p95=3.462 inlier=83.2% t=3.44s
+  Super4PCS                  p2m_med=1.118 p95=4.353 inlier=71.2% t=0.28s
+  Super4PCS+ICP_p2plane      p2m_med=0.378 p95=3.467 inlier=83.9% t=5.06s
+  RPMNet_zero_shot           p2m_med=1.305 p95=5.287 inlier=66.6% t=0.02s(infer-only)
+  GeoP2E(FGR-init,production) p2m_med=1.726 p95=10.414 inlier=54.0% t=14.08s
+
+== S3_fragment (88735 pts) ==
+  FGR                        p2m_med=1.797 p95=4.559 inlier=55.1% t=0.54s
+  FGR+ICP_p2plane            p2m_med=1.401 p95=4.619 inlier=64.2% t=3.89s
+  FGR+ICP_p2p                p2m_med=1.554 p95=4.653 inlier=60.7% t=2.93s
+  FGR+GICP                   p2m_med=1.525 p95=4.268 inlier=61.3% t=4.47s
+  FGR+TrimmedICP             p2m_med=1.740 p95=4.633 inlier=56.2% t=6.94s
+  FGR+SparseICP              p2m_med=1.786 p95=4.594 inlier=55.5% t=3.60s
+  TEASER++                   p2m_med=1.700 p95=4.698 inlier=56.8% t=1.08s
+  TEASER+++ICP_p2plane       p2m_med=1.310 p95=4.477 inlier=67.8% t=4.24s
+  Super4PCS                  p2m_med=1.441 p95=4.764 inlier=64.2% t=0.32s
+  Super4PCS+ICP_p2plane      p2m_med=1.311 p95=4.457 inlier=67.6% t=3.38s
+  RPMNet_zero_shot           p2m_med=1.801 p95=4.463 inlier=55.3% t=0.02s(infer-only)
+  GeoP2E(FGR-init,production) p2m_med=1.800 p95=4.628 inlier=54.2% t=2.72s
+saved /home/ubclr/projects/new/geop2e/code/minimal/results/e2_controlled_table.json

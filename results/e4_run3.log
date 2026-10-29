@@ -1,0 +1,139 @@
+50 filtered scans
+parts: ['Base-Top_Plate', 'Bookshelf', 'Guitar', 'Pendulum', 'Range_Hood', 'Round-Peg', 'Separator', 'Shaft-New', 'Square-Peg']
+  fit Base-Top_Plate: {'plane': 5, 'cylinder': 2, 'sphere': 0} coverage=0.6898
+  fit Bookshelf: {'plane': 12, 'cylinder': 0, 'sphere': 0} coverage=0.8067
+  fit Guitar: {'plane': 3, 'cylinder': 0, 'sphere': 0} coverage=0.7875
+  fit Pendulum: {'plane': 4, 'cylinder': 3, 'sphere': 0} coverage=0.6876
+  fit Range_Hood: {'plane': 9, 'cylinder': 0, 'sphere': 0} coverage=0.9757
+  fit Round-Peg: {'plane': 0, 'cylinder': 3, 'sphere': 1} coverage=0.1859
+  fit Separator: {'plane': 6, 'cylinder': 0, 'sphere': 0} coverage=0.6508
+  fit Shaft-New: {'plane': 8, 'cylinder': 4, 'sphere': 0} coverage=0.788
+  fit Square-Peg: {'plane': 12, 'cylinder': 0, 'sphere': 0} coverage=0.7868
+Base-Top_Plate_1: gt_dir=declared FGR+ICP rre=113.3 GeoP2E rre=115.3 trig=False nhyp=1 p2m=6.84mm
+Base-Top_Plate_2: gt_dir=declared FGR+ICP rre=91.5 GeoP2E rre=98.8 trig=False nhyp=1 p2m=5.34mm
+Base-Top_Plate_3: gt_dir=declared FGR+ICP rre=124.1 GeoP2E rre=65.8 trig=False nhyp=1 p2m=28.85mm
+Base-Top_Plate_4: gt_dir=declared FGR+ICP rre=89.6 GeoP2E rre=96.7 trig=False nhyp=1 p2m=5.08mm
+Base-Top_Plate_5: gt_dir=declared FGR+ICP rre=112.7 GeoP2E rre=117.2 trig=False nhyp=1 p2m=6.79mm
+Bookshelf_1: gt_dir=declared FGR+ICP rre=170.0 GeoP2E rre=142.9 trig=False nhyp=1 p2m=16.71mm
+Bookshelf_2: gt_dir=declared FGR+ICP rre=73.1 GeoP2E rre=124.7 trig=False nhyp=1 p2m=19.79mm
+Bookshelf_3: gt_dir=declared FGR+ICP rre=167.3 GeoP2E rre=141.7 trig=False nhyp=1 p2m=16.60mm
+Bookshelf_4: gt_dir=declared FGR+ICP rre=107.7 GeoP2E rre=95.1 trig=False nhyp=1 p2m=11.11mm
+Bookshelf_5: gt_dir=declared FGR+ICP rre=163.9 GeoP2E rre=153.9 trig=False nhyp=1 p2m=4.86mm
+Bookshelf_6: gt_dir=declared FGR+ICP rre=132.7 GeoP2E rre=102.4 trig=False nhyp=1 p2m=13.93mm
+Bookshelf_7: gt_dir=declared FGR+ICP rre=141.6 GeoP2E rre=70.2 trig=False nhyp=1 p2m=13.65mm
+Pendulum_1: gt_dir=declared FGR+ICP rre=168.0 GeoP2E rre=180.0 trig=False nhyp=1 p2m=6.90mm
+Pendulum_2: gt_dir=declared FGR+ICP rre=135.1 GeoP2E rre=100.0 trig=False nhyp=1 p2m=48.13mm
+Pendulum_3: gt_dir=declared FGR+ICP rre=123.1 GeoP2E rre=141.1 trig=False nhyp=1 p2m=22.04mm
+Pendulum_4: gt_dir=declared FGR+ICP rre=171.7 GeoP2E rre=180.0 trig=False nhyp=1 p2m=6.76mm
+Pendulum_5: gt_dir=declared FGR+ICP rre=127.5 GeoP2E rre=158.0 trig=False nhyp=1 p2m=8.89mm
+Pendulum_6: gt_dir=declared FGR+ICP rre=91.0 GeoP2E rre=65.1 trig=False nhyp=1 p2m=28.03mm
+Range_Hood_1: gt_dir=declared FGR+ICP rre=73.3 GeoP2E rre=36.7 trig=False nhyp=1 p2m=6.76mm
+Range_Hood_2: gt_dir=declared FGR+ICP rre=134.6 GeoP2E rre=96.0 trig=False nhyp=1 p2m=6.70mm
+Range_Hood_3: gt_dir=declared FGR+ICP rre=114.7 GeoP2E rre=70.5 trig=False nhyp=1 p2m=8.16mm
+Range_Hood_4: gt_dir=declared FGR+ICP rre=179.9 GeoP2E rre=179.5 trig=False nhyp=1 p2m=7.30mm
+Range_Hood_5: gt_dir=declared FGR+ICP rre=144.9 GeoP2E rre=179.9 trig=False nhyp=1 p2m=7.81mm
+Range_Hood_6: gt_dir=declared FGR+ICP rre=178.4 GeoP2E rre=179.8 trig=True nhyp=8 p2m=4.42mm
+Range_Hood_7: gt_dir=declared FGR+ICP rre=165.4 GeoP2E rre=173.0 trig=False nhyp=1 p2m=6.55mm
+Round-Peg_2: gt_dir=declared FGR+ICP rre=72.6 GeoP2E rre=90.0 trig=True nhyp=1 p2m=6.38mm
+Separator_1: gt_dir=declared FGR+ICP rre=64.2 GeoP2E rre=97.0 trig=False nhyp=1 p2m=15.75mm
+Separator_2: gt_dir=declared FGR+ICP rre=123.4 GeoP2E rre=101.7 trig=False nhyp=1 p2m=17.83mm
+Separator_3: gt_dir=declared FGR+ICP rre=99.8 GeoP2E rre=90.5 trig=False nhyp=1 p2m=13.45mm
+Separator_4: gt_dir=declared FGR+ICP rre=109.3 GeoP2E rre=139.3 trig=False nhyp=1 p2m=23.11mm
+Separator_5: gt_dir=declared FGR+ICP rre=130.1 GeoP2E rre=116.4 trig=False nhyp=1 p2m=16.59mm
+Separator_6: gt_dir=declared FGR+ICP rre=69.4 GeoP2E rre=104.9 trig=False nhyp=1 p2m=20.89mm
+Separator_7: gt_dir=declared FGR+ICP rre=179.7 GeoP2E rre=176.1 trig=False nhyp=1 p2m=8.70mm
+Separator_8: gt_dir=declared FGR+ICP rre=75.9 GeoP2E rre=97.3 trig=False nhyp=1 p2m=18.38mm
+Shaft-New_1: gt_dir=declared FGR+ICP rre=84.1 GeoP2E rre=46.3 trig=False nhyp=1 p2m=4.26mm
+Shaft-New_2: gt_dir=declared FGR+ICP rre=60.2 GeoP2E rre=62.7 trig=True nhyp=12 p2m=5.66mm
+Shaft-New_3: gt_dir=declared FGR+ICP rre=57.7 GeoP2E rre=40.7 trig=False nhyp=1 p2m=5.49mm
+Shaft-New_4: gt_dir=declared FGR+ICP rre=89.2 GeoP2E rre=97.0 trig=True nhyp=12 p2m=6.21mm
+Square-Peg_2: gt_dir=declared FGR+ICP rre=56.1 GeoP2E rre=97.0 trig=True nhyp=10 p2m=6.36mm
+Square-Peg_4: gt_dir=declared FGR+ICP rre=63.6 GeoP2E rre=63.3 trig=True nhyp=10 p2m=4.30mm
+saved /home/ubclr/projects/new/geop2e/code/minimal/results/e4_cranfield.json
+{
+ "Base-Top_Plate": {
+  "n_scans": 5,
+  "n_skipped": 0,
+  "FGR+ICP": {
+   "n": 5,
+   "success_joint": "0/5",
+   "rre_median_deg": 112.66525825021485,
+   "rre_max_deg": 124.13791308684372,
+   "near180_count": 0,
+   "p2m_median_mm": 3.437106031924486
+  },
+  "GeoP2E": {
+   "n": 5,
+   "success_joint": "0/5",
+   "rre_median_deg": 98.76985915153294,
+   "rre_max_deg": 117.19392989097062,
+   "near180_count": 0,
+   "p2m_median_mm": 6.786581827327609
+  },
+  "GeoP2E+ICP(secondary)": {
+   "n": 5,
+   "success_joint": "0/5",
+   "rre_median_deg": 115.79408010921468,
+   "rre_max_deg": 124.13791308684374,
+   "near180_count": 0,
+   "p2m_median_mm": 2.798857633024454
+  },
+  "RPMNet": {
+   "n": 5,
+   "success_joint": "0/5",
+   "rre_median_deg": 99.33163832913247,
+   "rre_max_deg": 119.44428805738329,
+   "near180_count": 0,
+   "p2m_median_mm": 5.7481147814542055
+  }
+ },
+ "Bookshelf": {
+  "n_scans": 7,
+  "n_skipped": 0,
+  "FGR+ICP": {
+   "n": 7,
+   "success_joint": "0/7",
+   "rre_median_deg": 141.57657259208963,
+   "rre_max_deg": 170.03716174928587,
+   "near180_count": 1,
+   "p2m_median_mm": 1.048879697918892
+  },
+  "GeoP2E": {
+   "n": 7,
+   "success_joint": "0/7",
+   "rre_median_deg": 124.66107975043917,
+   "rre_max_deg": 153.85531216424923,
+   "near180_count": 0,
+   "p2m_median_mm": 13.934246264398098
+  },
+  "GeoP2E+ICP(secondary)": {
+   "n": 7,
+   "success_joint": "0/7",
+   "rre_median_deg": 141.57657259208963,
+   "rre_max_deg": 170.03716174928587,
+   "near180_count": 1,
+   "p2m_median_mm": 1.048879697918892
+  },
+  "RPMNet": {
+   "n": 7,
+   "success_joint": "0/7",
+   "rre_median_deg": 99.47615331149868,
+   "rre_max_deg": 165.3555427643254,
+   "near180_count": 0,
+   "p2m_median_mm": 6.102167069911957
+  }
+ },
+ "Pendulum": {
+  "n_scans": 6,
+  "n_skipped": 0,
+  "FGR+ICP": {
+   "n": 6,
+   "success_joint": "0/6",
+   "rre_median_deg": 131.26736339283957,
+   "rre_max_deg": 171.67119289302656,
+   "near180_count": 1,
+   "p2m_median_mm": 2.606183523312211
+  },
+  "GeoP2E": {
+   "n": 6,
+   "succe

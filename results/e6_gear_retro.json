@@ -1,0 +1,62 @@
+{
+  "note": "RETROSPECTIVE repair cases (mechanisms invented after seeing these failures) - not confirmatory",
+  "rows": [
+    {
+      "scan": "S1_defect_30pct",
+      "n_pts": 262420,
+      "auto_A1": {
+        "p2m_median_mm": 2.395705819129944,
+        "p2m_p95_mm": 11.090318298339838,
+        "inlier_pct": 44.37238015395168,
+        "runtime_s": -1787716131.8646932,
+        "accepted": 0
+      },
+      "auto_full(A4+HV)": {
+        "p2m_median_mm": 2.2886725664138794,
+        "p2m_p95_mm": 10.371552324295042,
+        "inlier_pct": 45.36087188476488,
+        "runtime_s": 134.50910409200878,
+        "multistart": "w1+",
+        "hv": "full"
+      }
+    },
+    {
+      "scan": "S2_defective",
+      "n_pts": 266370,
+      "auto_A1": {
+        "p2m_median_mm": 1.1510505676269531,
+        "p2m_p95_mm": 4.5409041166305535,
+        "inlier_pct": 67.83534181777227,
+        "runtime_s": -1787716097.8567603,
+        "accepted": 60
+      },
+      "auto_full(A4+HV)": {
+        "p2m_median_mm": 0.4316151887178421,
+        "p2m_p95_mm": 3.4298772215843174,
+        "inlier_pct": 83.10883357735482,
+        "runtime_s": 768.1019374470052,
+        "multistart": "w2+",
+        "hv": "full"
+      }
+    },
+    {
+      "scan": "S3_fragment",
+      "n_pts": 88735,
+      "auto_A1": {
+        "p2m_median_mm": 1.7694751024246216,
+        "p2m_p95_mm": 4.246871232986451,
+        "inlier_pct": 56.27880768580605,
+        "runtime_s": -1787716137.7069867,
+        "accepted": 60
+      },
+      "auto_full(A4+HV)": {
+        "p2m_median_mm": 1.1726895570755005,
+        "p2m_p95_mm": 3.5153815984725956,
+        "inlier_pct": 68.62117540992844,
+        "runtime_s": 1239.3240528899914,
+        "multistart": "w1+",
+        "hv": "full"
+      }
+    }
+  ]
+}

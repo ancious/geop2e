@@ -1,0 +1,10 @@
+rho26=0.18,0.17,0.29,0.31,0.12,0.15,0.24,0.27,0.26,0.21,0.27,0.33,0.28,0.28,0.39,0.26,0.23,0.41,0.33,0.28,0.29,0.39,0.36,0.30,0.24,0.33
+SUBSTITUTION: top rho=0.12 out of band -> pool[8] rho=0.26
+[29726_73b01e1f_0] view=top rho=0.26 N=53,693 leak=0.0000 hprJ={2: 0.9364201796821009, 3: 0.7860438292964245, 4: 0.4603227975790182}
+Traceback (most recent call last):
+  File "/home/ubclr/projects/new/geop2e/code/minimal/e9_viewpoint_occlusion.py", line 768, in <module>
+    pilot()
+  File "/home/ubclr/projects/new/geop2e/code/minimal/e9_viewpoint_occlusion.py", line 735, in pilot
+    fsv = fsv_depth(Tm, sensor, P["subB"])
+                                ~^^^^^^^^
+KeyError: 'subB'

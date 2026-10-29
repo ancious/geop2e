@@ -1,0 +1,333 @@
+{
+  "protocol": {
+    "inputs": "identical scan files, persisted 20k-pt CAD target, same evaluation mesh, mm units",
+    "arms_common_FGR_init": [
+      "FGR",
+      "FGR+ICP_p2p",
+      "FGR+ICP_p2plane",
+      "FGR+GICP",
+      "FGR+TrimmedICP",
+      "FGR+SparseICP",
+      "GeoP2E(FGR-init,production)"
+    ],
+    "arms_own_global_start": [
+      "TEASER++(+ICP_p2plane)",
+      "Super4PCS(+ICP_p2plane)",
+      "RPMNet_zero_shot"
+    ],
+    "modality_disclosure": "GeoP2E consumes 8 analytic B-Rep primitives (FIM-selected); point-cloud methods consume the 20k sampled CAD target; TEASER++ uses reciprocal FPFH correspondences (voxel 1.0, cap 8000); Super4PCS consumes a deterministic raw-scan decimation (~44k pts) vs 20k target; RPMNet uses deterministic 1024-pt subsets with own-centroid + target-extent normalisation (disclosed domain mismatch). Evaluation for every arm: scan->CAD-mesh distance (geometric fit, NOT independent pose accuracy).",
+    "teaser": {
+      "noise_bound_mm": 1.0,
+      "estimate_scaling": false,
+      "other": "library defaults"
+    },
+    "s4pcs": {
+      "delta_mm": 1.0,
+      "time_cap_s": 60
+    },
+    "geop2e": "FIM-selected features (E-opt, 8), production solver params, shared FGR start; volume trigger does not activate on these scans (E3 finding) so single full-CAD solve",
+    "note": "per-scan descriptive reporting only; no pooled superiority ratio is computed (1.6-6x removed)"
+  },
+  "env": {
+    "open3d": "0.19.0",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "git_commit(parent, geop2e untracked)": "17e5aa2",
+    "source_sha256_e2": "67f42ac3cbae905e",
+    "source_sha256_e1c": "c24605a740206dc5",
+    "target_npz_sha256": "44a0b52915df1d9c",
+    "opengr_binary_sha256": "2bcad3edf376691f",
+    "rpmnet_ckpt": {
+      "ckpt": "/home/ubclr/projects/new/3dphy/data/real/cranfield/src/toolboxes/learning3d/checkpoints/exp_rpmnet_partial_0.7_noisy_0.01_floor/models/best_model_snap.t7",
+      "n_pts": 1024,
+      "seed": 20260827,
+      "device": "cuda:0",
+      "note": "zero-shot, partial_0.7_noisy checkpoint, own-centroid + target-extent normalisation, fixed-1024 seeded subsample"
+    },
+    "selected_feature_indices": [
+      0,
+      183,
+      175,
+      206,
+      1,
+      70,
+      187,
+      134
+    ],
+    "configs": {
+      "fgr_voxel": 1.0,
+      "fgr_max_corr_dist": 1.5,
+      "icp_threshold": 2.0,
+      "icp_max_iter": 100,
+      "trimmed": {
+        "threshold": 2.0,
+        "trim_frac": 0.3,
+        "max_iter": 50
+      },
+      "sparseicp": {
+        "threshold": 3.0,
+        "p": 0.5,
+        "outer": 20
+      },
+      "geop2e_select": {
+        "criterion": "e",
+        "target_size": 8,
+        "min_features": 5
+      }
+    },
+    "geop2e_solver_params": {
+      "init_radius": 10.281349333182847,
+      "anneal": 0.9,
+      "max_iter": 60,
+      "lam": 0.001,
+      "k_huber": 0.6854232888788565,
+      "angle_thresh_deg": 30.0
+    },
+    "timing_scope": "FGR cost recomputed per run and added to every arm that consumes the shared FGR start (incl. GeoP2E); TEASER/S4PCS refined rows = global + refine; RPMNet = model inference only, preprocessing/model-load excluded, separate device"
+  },
+  "scans": [
+    {
+      "scan": "defect/22.pcd",
+      "label": "S1_defect_30pct",
+      "n_pts": 262420,
+      "results": {
+        "FGR": {
+          "p2m_median_mm": 2.605676770210266,
+          "p2m_p95_mm": 7.9930631399154635,
+          "inlier_pct": 42.40644767929274,
+          "runtime_s": 0.7506140530022094
+        },
+        "FGR+ICP_p2plane": {
+          "p2m_median_mm": 0.38083864748477936,
+          "p2m_p95_mm": 3.5066438555717463,
+          "inlier_pct": 83.32101211797881,
+          "runtime_s": 5.954821136008832
+        },
+        "FGR+ICP_p2p": {
+          "p2m_median_mm": 0.4080807715654373,
+          "p2m_p95_mm": 3.5523336648941037,
+          "inlier_pct": 83.01463303101897,
+          "runtime_s": 5.966227623008308
+        },
+        "FGR+GICP": {
+          "p2m_median_mm": 2.771045446395874,
+          "p2m_p95_mm": 8.786907291412353,
+          "inlier_pct": 41.77425501105099,
+          "runtime_s": 1.603924836992519
+        },
+        "FGR+TrimmedICP": {
+          "p2m_median_mm": 2.434409737586975,
+          "p2m_p95_mm": 7.11509211063385,
+          "inlier_pct": 43.25699260727079,
+          "runtime_s": 22.73893890999898
+        },
+        "FGR+SparseICP": {
+          "p2m_median_mm": 1.9708643555641174,
+          "p2m_p95_mm": 6.378773689270019,
+          "inlier_pct": 50.55026293727612,
+          "runtime_s": 10.811035991006065
+        },
+        "TEASER++": {
+          "p2m_median_mm": 1.4833034873008728,
+          "p2m_p95_mm": 7.173377299308774,
+          "inlier_pct": 59.63760384117064,
+          "runtime_s": 1.3128422820009291
+        },
+        "TEASER+++ICP_p2plane": {
+          "p2m_median_mm": 0.3947737216949463,
+          "p2m_p95_mm": 3.4742102503776544,
+          "inlier_pct": 82.99062571450347,
+          "runtime_s": 3.5280299989972264
+        },
+        "Super4PCS": {
+          "p2m_median_mm": 0.9407542645931244,
+          "p2m_p95_mm": 4.041126799583435,
+          "inlier_pct": 72.3504306074232,
+          "runtime_s": 0.3798235440044664
+        },
+        "Super4PCS+ICP_p2plane": {
+          "p2m_median_mm": 0.3969666510820389,
+          "p2m_p95_mm": 3.4994341015815715,
+          "inlier_pct": 83.23489063333588,
+          "runtime_s": 2.064688811005908
+        },
+        "RPMNet_zero_shot": {
+          "p2m_median_mm": 1.1891376972198486,
+          "p2m_p95_mm": 4.035841798782348,
+          "inlier_pct": 72.71587531438153,
+          "runtime_s_infer_only": 1.0427007675170898,
+          "device": "cuda:0"
+        },
+        "GeoP2E(FGR-init,production)": {
+          "p2m_median_mm": 1.7979217171669006,
+          "p2m_p95_mm": 5.733914470672605,
+          "inlier_pct": 53.43152198765338,
+          "runtime_s": 13.093908021997777,
+          "iters": 60
+        }
+      }
+    },
+    {
+      "scan": "defect/4.ply",
+      "label": "S2_defective",
+      "n_pts": 266370,
+      "results": {
+        "FGR": {
+          "p2m_median_mm": 2.279808282852173,
+          "p2m_p95_mm": 10.050018978118892,
+          "inlier_pct": 45.97927694560198,
+          "runtime_s": 1.146111715992447
+        },
+        "FGR+ICP_p2plane": {
+          "p2m_median_mm": 0.38211825489997864,
+          "p2m_p95_mm": 3.502846944332122,
+          "inlier_pct": 83.19405338439013,
+          "runtime_s": 3.5874306529876776
+        },
+        "FGR+ICP_p2p": {
+          "p2m_median_mm": 0.6316691637039185,
+          "p2m_p95_mm": 3.5018851518630973,
+          "inlier_pct": 83.03487629988362,
+          "runtime_s": 5.972296555992216
+        },
+        "FGR+GICP": {
+          "p2m_median_mm": 0.3932080864906311,
+          "p2m_p95_mm": 3.6526403784751884,
+          "inlier_pct": 82.85767916807448,
+          "runtime_s": 8.37159728599363
+        },
+        "FGR+TrimmedICP": {
+          "p2m_median_mm": 1.4673103094100952,
+          "p2m_p95_mm": 7.779044985771178,
+          "inlier_pct": 59.72556969628712,
+          "runtime_s": 15.467830418987432
+        },
+        "FGR+SparseICP": {
+          "p2m_median_mm": 1.5241132974624634,
+          "p2m_p95_mm": 8.057822990417481,
+          "inlier_pct": 58.363179036678304,
+          "runtime_s": 9.209220151984482
+        },
+        "TEASER++": {
+          "p2m_median_mm": 1.6148194670677185,
+          "p2m_p95_mm": 5.051438188552855,
+          "inlier_pct": 57.7328527987386,
+          "runtime_s": 1.2669163789978484
+        },
+        "TEASER+++ICP_p2plane": {
+          "p2m_median_mm": 0.38286997377872467,
+          "p2m_p95_mm": 3.462484526634216,
+          "inlier_pct": 83.2421068438638,
+          "runtime_s": 3.4383520929986844
+        },
+        "Super4PCS": {
+          "p2m_median_mm": 1.117638349533081,
+          "p2m_p95_mm": 4.353315496444702,
+          "inlier_pct": 71.215977775275,
+          "runtime_s": 0.28000711600179784
+        },
+        "Super4PCS+ICP_p2plane": {
+          "p2m_median_mm": 0.3778577744960785,
+          "p2m_p95_mm": 3.4665160536766053,
+          "inlier_pct": 83.90959942936517,
+          "runtime_s": 5.062065080011962
+        },
+        "RPMNet_zero_shot": {
+          "p2m_median_mm": 1.3046895861625671,
+          "p2m_p95_mm": 5.287016582489011,
+          "inlier_pct": 66.60997860119383,
+          "runtime_s_infer_only": 0.020728111267089844,
+          "device": "cuda:0"
+        },
+        "GeoP2E(FGR-init,production)": {
+          "p2m_median_mm": 1.7255281209945679,
+          "p2m_p95_mm": 10.414162969589233,
+          "inlier_pct": 54.010962195442424,
+          "runtime_s": 14.082713718002196,
+          "iters": 60
+        }
+      }
+    },
+    {
+      "scan": "defect/1.ply",
+      "label": "S3_fragment",
+      "n_pts": 88735,
+      "results": {
+        "FGR": {
+          "p2m_median_mm": 1.796655297279358,
+          "p2m_p95_mm": 4.558857488632205,
+          "inlier_pct": 55.10114385529948,
+          "runtime_s": 0.5399040019983659
+        },
+        "FGR+ICP_p2plane": {
+          "p2m_median_mm": 1.4008427858352661,
+          "p2m_p95_mm": 4.619172096252443,
+          "inlier_pct": 64.24973234912943,
+          "runtime_s": 3.8859099289984442
+        },
+        "FGR+ICP_p2p": {
+          "p2m_median_mm": 1.5536398887634277,
+          "p2m_p95_mm": 4.653297853469849,
+          "inlier_pct": 60.65701245280892,
+          "runtime_s": 2.9268326869932935
+        },
+        "FGR+GICP": {
+          "p2m_median_mm": 1.5245468616485596,
+          "p2m_p95_mm": 4.2684536457061775,
+          "inlier_pct": 61.26443906012283,
+          "runtime_s": 4.472897770989221
+        },
+        "FGR+TrimmedICP": {
+          "p2m_median_mm": 1.7398498058319092,
+          "p2m_p95_mm": 4.633204984664918,
+          "inlier_pct": 56.19879416239364,
+          "runtime_s": 6.938412195988349
+        },
+        "FGR+SparseICP": {
+          "p2m_median_mm": 1.7856472730636597,
+          "p2m_p95_mm": 4.594324541091919,
+          "inlier_pct": 55.477545500648,
+          "runtime_s": 3.5959746120061027
+        },
+        "TEASER++": {
+          "p2m_median_mm": 1.699569821357727,
+          "p2m_p95_mm": 4.697528219223023,
+          "inlier_pct": 56.79269735729983,
+          "runtime_s": 1.0801392440043855
+        },
+        "TEASER+++ICP_p2plane": {
+          "p2m_median_mm": 1.30971097946167,
+          "p2m_p95_mm": 4.476626634597778,
+          "inlier_pct": 67.79850115512481,
+          "runtime_s": 4.24421477400756
+        },
+        "Super4PCS": {
+          "p2m_median_mm": 1.4414974451065063,
+          "p2m_p95_mm": 4.763660240173341,
+          "inlier_pct": 64.22832027948385,
+          "runtime_s": 0.3176996620022692
+        },
+        "Super4PCS+ICP_p2plane": {
+          "p2m_median_mm": 1.3108476400375366,
+          "p2m_p95_mm": 4.4573358535766605,
+          "inlier_pct": 67.60015777314476,
+          "runtime_s": 3.3797101079981076
+        },
+        "RPMNet_zero_shot": {
+          "p2m_median_mm": 1.800760269165039,
+          "p2m_p95_mm": 4.4625317573547365,
+          "inlier_pct": 55.25440919592044,
+          "runtime_s_infer_only": 0.01901865005493164,
+          "device": "cuda:0"
+        },
+        "GeoP2E(FGR-init,production)": {
+          "p2m_median_mm": 1.7998541593551636,
+          "p2m_p95_mm": 4.628323411941528,
+          "inlier_pct": 54.24466106947653,
+          "runtime_s": 2.7246635740011698,
+          "iters": 60
+        }
+      }
+    }
+  ]
+}

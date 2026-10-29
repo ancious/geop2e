@@ -1,0 +1,38 @@
+21638 S1v20: lambda_min_vis=1.533
+21638 S1v14: lambda_min_vis=1.903
+21638 S2v12: lambda_min_vis=1.778
+21638 S2v22: lambda_min_vis=1.322
+21638 S3v24: lambda_min_vis=1.459
+21638 S3v16f: lambda_min_vis=2.59
+21644 S1v13: lambda_min_vis=0.6151
+21644 S1v11: lambda_min_vis=0.8869
+21644 S2v04: lambda_min_vis=0.797
+21644 S2v15: lambda_min_vis=0.4357
+21644 S3v05: lambda_min_vis=0.5806
+21644 S3v19: lambda_min_vis=0.4425
+29726 S1v17: lambda_min_vis=10.25
+29726 S1v14: lambda_min_vis=0.8678
+29726 S2v21: lambda_min_vis=10.19
+29726 S2v22: lambda_min_vis=0.9403
+29726 S3v11f: lambda_min_vis=9.711
+29726 S3v25: lambda_min_vis=7.263
+52890 S1v01: lambda_min_vis=8.438e-15
+52890 S1v00: lambda_min_vis=1.332e-15
+52890 S2v03: lambda_min_vis=0.1199
+52890 S2v02: lambda_min_vis=0.1208
+52890 S3v14: lambda_min_vis=0.001925
+52890 S3v16: lambda_min_vis=0.01267
+25365 S1v18: lambda_min_vis=0.8539
+25365 S1v24: lambda_min_vis=1.308
+25365 S2v19: lambda_min_vis=0.9006
+25365 S2v22: lambda_min_vis=1.178
+25365 S3v15f: lambda_min_vis=1.739e-33
+25365 S3v10: lambda_min_vis=0.9728
+{"held": "21638_0a984848_73", "tau": 1.3322676295501076e-15, "ba": 0.741304347826087, "hybrid": 0.38333333333333336, "G1": 0.38333333333333336, "B10b": 0.75, "mean_rt": 1.604, "flagged": "0/6"}
+{"held": "21644_aa203dc5_3", "tau": 1.3322676295501076e-15, "ba": 0.7739130434782608, "hybrid": 0.6333333333333333, "G1": 0.6333333333333333, "B10b": 0.8166666666666665, "mean_rt": 1.0090000000000001, "flagged": "0/6"}
+{"held": "25365_14519ce1_0", "tau": 8.437694987151032e-15, "ba": 0.7826086956521738, "hybrid": 0.7000000000000001, "G1": 0.7000000000000001, "B10b": 0.65, "mean_rt": 1.856333333333333, "flagged": "1/6"}
+{"held": "29726_73b01e1f_0", "tau": 1.3322676295501076e-15, "ba": 0.7695652173913043, "hybrid": 0.6, "G1": 0.6, "B10b": 1.0, "mean_rt": 1.3761666666666665, "flagged": "0/6"}
+{"held": "52890_7ae554d9_1", "tau": 0.4356772195305751, "ba": 0.6978260869565217, "hybrid": 0.6833333333333332, "G1": 0.05000000000000001, "B10b": 0.6833333333333332, "mean_rt": 2.9203333333333332, "flagged": "6/6"}
+
+LOPO hybrid mean: 0.6 | oracle G1/B10b: 0.8000000000000002
+D1 GATE DONE

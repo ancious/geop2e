@@ -1,0 +1,38 @@
+{
+ "coarse": 0.12022182133153625,
+ "sel8": {
+  "median": 0.4871520805393339,
+  "p95": 0.6507842220913509,
+  "inlier_pct": 100.0
+ },
+ "all": {
+  "median": 0.2969344910440281,
+  "p95": 0.4571443112665117,
+  "inlier_pct": 100.0
+ },
+ "sel_kinds": [
+  "cylinder",
+  "plane",
+  "cylinder",
+  "cylinder",
+  "cylinder",
+  "plane",
+  "cylinder",
+  "cylinder"
+ ],
+ "all_kinds": [
+  "plane",
+  "cylinder",
+  "cylinder",
+  "plane",
+  "plane",
+  "cylinder",
+  "plane",
+  "cylinder",
+  "cylinder",
+  "plane",
+  "cylinder",
+  "plane",
+  "cylinder"
+ ]
+}

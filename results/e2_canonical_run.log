@@ -1,0 +1,36 @@
+Starting scale solver (only selecting inliers if scale estimation has been disabled).
+Scale estimation complete.
+Max core number: 17
+Num vertices: 199
+Max Clique of scale estimation inliers: 
+Using chain graph for GNC rotation.
+Starting rotation solver.
+GNC rotation estimation noise bound:2
+GNC rotation estimation noise bound squared:4
+GNC-TLS solver terminated due to cost convergence.
+Cost diff: 0
+Iterations: 21
+Rotation estimation complete.
+Starting translation solver.
+Translation estimation complete.
+
+== S1_defect_30pct (262420 pts) ==
+  FGR                        p2m_med=2.346 p95=11.193 inlier=45.3% t=0.42s
+  FGR+ICP_p2plane            p2m_med=0.377 p95=3.524 inlier=83.2% t=3.31s
+  FGR+ICP_p2p                p2m_med=1.346 p95=6.603 inlier=63.5% t=2.79s
+  FGR+GICP                   p2m_med=1.475 p95=6.865 inlier=60.0% t=4.69s
+  FGR+TrimmedICP             p2m_med=1.893 p95=10.074 inlier=51.5% t=10.04s
+  FGR+SparseICP              p2m_med=1.975 p95=10.389 inlier=50.4% t=5.04s
+  TEASER++                   p2m_med=1.483 p95=7.173 inlier=59.6% t=0.77s
+  TEASER+++ICP_p2plane       p2m_med=0.395 p95=3.474 inlier=83.0% t=2.12s
+  Super4PCS                  p2m_med=0.941 p95=4.041 inlier=72.4% t=0.21s
+  Super4PCS+ICP_p2plane      p2m_med=0.397 p95=3.499 inlier=83.2% t=1.57s
+  RPMNet_zero_shot           p2m_med=1.189 p95=4.036 inlier=72.7% t=0.55s(infer-only)
+  GeoP2E(FGR-init,production) p2m_med=2.340 p95=9.080 inlier=46.0% t=7.15s
+Traceback (most recent call last):
+  File "/home/ubclr/projects/new/geop2e/code/minimal/e2_controlled_table.py", line 307, in <module>
+    main(skip_rpmnet="--skip-rpmnet" in sys.argv)
+  File "/home/ubclr/projects/new/geop2e/code/minimal/e2_controlled_table.py", line 256, in main
+    print(f"  {k:26s} ERROR {v.get('error','')[:80]}")
+                             ^^^^^
+AttributeError: 'str' object has no attribute 'get'

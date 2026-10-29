@@ -1,0 +1,5 @@
+Mon Sep  7 15:19:03 +08 2026 patched+compiled; relaunching 21638
+Mon Sep  7 15:19:30 +08 2026 focus finished; applying fixes
+PATCHED: G8 threshold >=2; G7 fill -> area-ranked
+Mon Sep  7 15:19:30 +08 2026 relaunching focus on 21638 with fixed G7/G8
+Mon Sep  7 15:29:28 +08 2026 FOCUS1-RERUN-COMPLETE pid 2516626 exited

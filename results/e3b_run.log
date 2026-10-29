@@ -1,0 +1,90 @@
+[forced S1_defect_30pct] done 20 trials
+[forced S2_defective] done 20 trials
+[forced S3_fragment] done 20 trials
+saved /home/ubclr/projects/new/geop2e/code/minimal/results/e3b_forced_trigger.json
+{
+ "S1_defect_30pct": {
+  "n_ok": 20,
+  "n_err": 0,
+  "forced": {
+   "p2m_median": 1.0371275544166565,
+   "p2m_p95_median": 3.984128236770629,
+   "inlier_median": 70.09145644386861,
+   "fail_pct": 100.0,
+   "p2m_median_boot95": [
+    1.0371275544166565,
+    1.0371275544166565
+   ],
+   "mean_n_hypotheses": 9.0,
+   "winners": {
+    "cand3": 20
+   },
+   "runtime_s_median": 32.18882941999618
+  },
+  "paired_vs_recorded_bypass": {
+   "n_paired": 20,
+   "p2m_median_diff_mm": -0.7607941627502441,
+   "diff_boot95": [
+    -0.7607941627502441,
+    -0.7607941627502441
+   ]
+  }
+ },
+ "S2_defective": {
+  "n_ok": 20,
+  "n_err": 0,
+  "forced": {
+   "p2m_median": 1.8949411809444427,
+   "p2m_p95_median": 9.003304767608643,
+   "inlier_median": 51.579194353718506,
+   "fail_pct": 100.0,
+   "p2m_median_boot95": [
+    1.889066457748413,
+    1.9164385795593262
+   ],
+   "mean_n_hypotheses": 9.0,
+   "winners": {
+    "cand5": 13,
+    "cand1": 7
+   },
+   "runtime_s_median": 38.29074596300052
+  },
+  "paired_vs_recorded_bypass": {
+   "n_paired": 20,
+   "p2m_median_diff_mm": -0.22600194811820984,
+   "diff_boot95": [
+    -0.23214206099510193,
+    -0.21845558285713196
+   ]
+  }
+ },
+ "S3_fragment": {
+  "n_ok": 20,
+  "n_err": 0,
+  "forced": {
+   "p2m_median": 1.5213986039161682,
+   "p2m_p95_median": 4.406939601898195,
+   "inlier_median": 61.98230686876655,
+   "fail_pct": 100.0,
+   "p2m_median_boot95": [
+    1.5070893168449402,
+    1.5246331691741943
+   ],
+   "mean_n_hypotheses": 9.0,
+   "winners": {
+    "cand1": 15,
+    "cand7": 3,
+    "cand4": 2
+   },
+   "runtime_s_median": 8.182712435504072
+  },
+  "paired_vs_recorded_bypass": {
+   "n_paired": 20,
+   "p2m_median_diff_mm": -0.3028993010520935,
+   "diff_boot95": [
+    -0.31751197576522827,
+    -0.2796517610549927
+   ]
+  }
+ }
+}

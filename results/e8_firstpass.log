@@ -1,0 +1,46 @@
+CAD 52890_7ae554d9_1     area=15026mm2 tgt=19,390 (1s)
+CAD 21644_aa203dc5_3     area=39982mm2 tgt=41,479 (0s)
+CAD 29726_73b01e1f_0     area=44370mm2 tgt=52,181 (0s)
+CAD 21638_0a984848_73    area=74501mm2 tgt=83,598 (0s)
+CAD 25365_14519ce1_0     area=32173mm2 tgt=38,072 (0s)
+scan 1: rows=7,165,676 -> clean 7,094,039 -> work 321,781 (18s)
+   vs 52890_7ae554d9_1     [pca] median= 25.961mm p95=  59.14 in1mm=  4.3%
+   vs 21644_aa203dc5_3     [pca] median=  9.786mm p95=  28.87 in1mm= 20.1%
+   vs 29726_73b01e1f_0     [fgr] median= 17.693mm p95=  73.71 in1mm= 15.1%
+   vs 21638_0a984848_73    [fgr] median=  0.232mm p95=   0.47 in1mm=100.0%
+   vs 25365_14519ce1_0     [pca] median= 16.313mm p95=  43.05 in1mm=  6.0%
+scan 1 MATCHED -> 21638_0a984848_73 (median 0.232mm)
+  coarse=0.232 | GeoP2E median=4.742mm p95=14.15 | ICP-baseline 0.231mm [210s total]
+scan 2: rows=3,798,961 -> clean 3,798,953 -> work 173,237 (8s)
+   vs 52890_7ae554d9_1     [pca] median= 16.795mm p95=  48.22 in1mm=  6.2%
+   vs 21644_aa203dc5_3     [pca] median=  0.120mm p95=   0.23 in1mm=100.0%
+   vs 29726_73b01e1f_0     [fgr] median=  9.076mm p95=  34.29 in1mm= 11.7%
+   vs 21638_0a984848_73    [fgr] median=  3.278mm p95=  10.02 in1mm= 17.6%
+   vs 25365_14519ce1_0     [fgr] median=  5.915mm p95=  26.59 in1mm=  3.9%
+scan 2 MATCHED -> 21644_aa203dc5_3 (median 0.120mm)
+  coarse=0.120 | GeoP2E median=0.487mm p95=0.65 | ICP-baseline 0.120mm [110s total]
+scan 3: rows=4,690,016 -> clean 4,649,517 -> work 205,732 (11s)
+   vs 52890_7ae554d9_1     [pca] median= 17.460mm p95=  54.08 in1mm=  6.1%
+   vs 21644_aa203dc5_3     [pca] median=  9.065mm p95=  40.53 in1mm= 10.5%
+   vs 29726_73b01e1f_0     [fgr] median=  0.139mm p95=   0.29 in1mm=100.0%
+   vs 21638_0a984848_73    [fgr] median=  4.392mm p95=  24.04 in1mm= 13.3%
+   vs 25365_14519ce1_0     [pca] median=  8.792mm p95=  35.54 in1mm=  8.5%
+scan 3 MATCHED -> 29726_73b01e1f_0 (median 0.139mm)
+  coarse=0.139 | GeoP2E median=1.367mm p95=8.34 | ICP-baseline 0.143mm [137s total]
+scan 4: rows=2,567,538 -> clean 2,354,570 -> work 64,094 (2s)
+   vs 52890_7ae554d9_1     [pca] median=  0.090mm p95=   0.16 in1mm=100.0%
+   vs 21644_aa203dc5_3     [pca] median=  4.314mm p95=  19.08 in1mm= 17.1%
+   vs 29726_73b01e1f_0     [fgr] median=  3.683mm p95=  20.43 in1mm= 18.4%
+   vs 21638_0a984848_73    [fgr] median=  3.236mm p95=   9.25 in1mm= 20.6%
+   vs 25365_14519ce1_0     [pca] median=  2.554mm p95=  10.58 in1mm= 21.0%
+scan 4 MATCHED -> 52890_7ae554d9_1 (median 0.090mm)
+  coarse=0.090 | GeoP2E median=0.090mm p95=0.16 | ICP-baseline 0.090mm [35s total]
+scan 5: rows=3,151,658 -> clean 3,136,922 -> work 142,672 (7s)
+   vs 52890_7ae554d9_1     [fgr] median= 10.764mm p95=  34.88 in1mm=  9.5%
+   vs 21644_aa203dc5_3     [fgr] median= 12.358mm p95=  41.20 in1mm= 13.0%
+   vs 29726_73b01e1f_0     [pca] median=  8.813mm p95=  33.65 in1mm= 12.3%
+   vs 21638_0a984848_73    [pca] median=  4.904mm p95=  23.85 in1mm= 13.9%
+   vs 25365_14519ce1_0     [fgr] median=  7.075mm p95=  42.31 in1mm= 11.1%
+scan 5 MATCHED -> 21638_0a984848_73 (median 4.904mm)
+  coarse=4.904 | GeoP2E median=6.154mm p95=26.47 | ICP-baseline 4.929mm [123s total]
+saved /home/ubclr/projects/new/geop2e/code/minimal/results/e8_print_scans_firstpass.json

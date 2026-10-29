@@ -1,0 +1,3 @@
+ref: 0.12
+A4 multistart(n=3): median=1.232 p95=1.40 rre_vs_ref=0.04deg tte=1.266mm
+A4 multistart(n=5): median=1.232 p95=1.40 rre_vs_ref=0.04deg tte=1.266mm

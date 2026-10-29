@@ -1,0 +1,45 @@
+[21638_0a984848_73] T_ref p2m median=0.232mm (18s)
+  trial00 ang=41° | icp_p2plane=90.00°/N geop2e_e8=90.00°/N
+  trial01 ang=31° | icp_p2plane=90.00°/N geop2e_e8=90.00°/N
+  trial02 ang=43° | icp_p2plane=60.00°/N geop2e_e8=59.97°/N
+  trial03 ang=53° | icp_p2plane=90.00°/N geop2e_e8=90.00°/N
+  trial04 ang=55° | icp_p2plane=60.00°/N geop2e_e8=59.98°/N
+  trial05 ang=39° | icp_p2plane=90.00°/N geop2e_e8=90.00°/N
+  trial06 ang=29° | icp_p2plane=90.00°/N geop2e_e8=90.00°/N
+  trial07 ang=57° | icp_p2plane=90.00°/N geop2e_e8=90.00°/N
+  trial08 ang=42° | icp_p2plane=90.00°/N geop2e_e8=90.00°/N
+  trial09 ang=29° | icp_p2plane=90.00°/N geop2e_e8=90.00°/N
+[21644_aa203dc5_3] T_ref p2m median=0.120mm (10s)
+  trial00 ang=57° | icp_p2plane=135.19°/N geop2e_e8=134.92°/N
+  trial01 ang=60° | icp_p2plane=0.00°/Y geop2e_e8=0.04°/N
+  trial02 ang=50° | icp_p2plane=0.00°/Y geop2e_e8=0.04°/N
+  trial03 ang=56° | icp_p2plane=160.13°/N geop2e_e8=157.57°/N
+  trial04 ang=21° | icp_p2plane=12.62°/N geop2e_e8=16.55°/N
+  trial05 ang=33° | icp_p2plane=150.28°/N geop2e_e8=150.51°/N
+  trial06 ang=18° | icp_p2plane=90.00°/N geop2e_e8=90.00°/N
+  trial07 ang=28° | icp_p2plane=78.66°/N geop2e_e8=72.26°/N
+  trial08 ang=31° | icp_p2plane=90.00°/N geop2e_e8=90.00°/N
+  trial09 ang=33° | icp_p2plane=0.00°/Y geop2e_e8=0.04°/N
+[29726_73b01e1f_0] T_ref p2m median=0.139mm (11s)
+  trial00 ang=22° | icp_p2plane=0.00°/Y geop2e_e8=0.13°/Y
+  trial01 ang=32° | icp_p2plane=90.00°/N geop2e_e8=90.00°/N
+  trial02 ang=19° | icp_p2plane=90.00°/N geop2e_e8=90.00°/N
+  trial03 ang=31° | icp_p2plane=90.00°/N geop2e_e8=90.00°/N
+  trial04 ang=35° | icp_p2plane=0.00°/Y geop2e_e8=0.13°/Y
+  trial05 ang=48° | icp_p2plane=90.00°/N geop2e_e8=90.00°/N
+  trial06 ang=47° | icp_p2plane=0.00°/Y geop2e_e8=0.13°/Y
+  trial07 ang=58° | icp_p2plane=0.00°/Y geop2e_e8=0.13°/Y
+  trial08 ang=22° | icp_p2plane=0.00°/Y geop2e_e8=0.13°/Y
+  trial09 ang=30° | icp_p2plane=90.00°/N geop2e_e8=90.00°/N
+[52890_7ae554d9_1] T_ref p2m median=0.090mm (4s)
+  trial00 ang=58° | icp_p2plane=0.00°/Y geop2e_e8=0.01°/Y
+  trial01 ang=42° | icp_p2plane=90.00°/N geop2e_e8=90.00°/N
+  trial02 ang=27° | icp_p2plane=0.00°/Y geop2e_e8=0.01°/Y
+  trial03 ang=25° | icp_p2plane=90.00°/N geop2e_e8=90.00°/N
+  trial04 ang=22° | icp_p2plane=90.00°/N geop2e_e8=90.00°/N
+  trial05 ang=51° | icp_p2plane=179.97°/N geop2e_e8=179.99°/N
+  trial06 ang=57° | icp_p2plane=90.00°/N geop2e_e8=90.00°/N
+  trial07 ang=58° | icp_p2plane=90.00°/N geop2e_e8=90.00°/N
+  trial08 ang=19° | icp_p2plane=90.00°/N geop2e_e8=90.00°/N
+  trial09 ang=20° | icp_p2plane=179.97°/N geop2e_e8=179.99°/N
+[25365_14519ce1_0] T_ref p2m median=0.134mm (7s)

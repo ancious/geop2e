@@ -1,0 +1,24 @@
+{
+ "part": "21644_aa203dc5_3",
+ "benchmark_calib": {
+  "sel": "all",
+  "lam": 0.1,
+  "ang": 30.0,
+  "init_radius_mm": 3.0,
+  "anneal": 0.9,
+  "max_iter": 60,
+  "k_huber_frac_of_diag": 0.012
+ },
+ "selection_e8_kinds": [
+  "plane",
+  "cylinder",
+  "cylinder",
+  "plane",
+  "plane",
+  "cylinder",
+  "plane",
+  "cylinder"
+ ],
+ "source": "e8f2_grid.json scan2 + e8e_bench.CALIB[2]",
+ "provenance": "tuned on this same part (oracle; disclosed)"
+}

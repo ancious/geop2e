@@ -1,0 +1,54 @@
+screening 69 STEP parts
+  128367_1483fb5d_0.stp        U=0.003 cov=0.98 n=  9 {'plane': 4, 'cylinder': 5} axisConc=0.87
+  129401_7686af57_0.stp        U=0.004 cov=1.00 n=  9 {'cylinder': 5, 'plane': 4} axisConc=0.52
+  132581_e683b2ae_6.stp        U=0.003 cov=1.00 n= 14 {'cylinder': 9, 'plane': 5} axisConc=0.42
+  138845_41fcbfb6_2.stp        U=0.002 cov=1.00 n= 12 {'cylinder': 5, 'plane': 7} axisConc=0.87
+  145368_f8e30675_3.stp        U=0.003 cov=0.97 n=  9 {'cylinder': 4, 'plane': 4, 'sphere': 1} axisConc=0.83
+  145726_27898357_0.stp        U=0.002 cov=0.91 n=  9 {'cylinder': 4, 'plane': 4, 'sphere': 1} axisConc=0.93
+  146889_355637a1_31.stp       U=0.004 cov=0.87 n= 14 {'cylinder': 6, 'plane': 8} axisConc=0.70
+  21638_0a984848_73.stp        U=0.002 cov=1.00 n= 13 {'cylinder': 11, 'plane': 2} axisConc=0.57
+  21644_aa203dc5_3.stp         U=0.003 cov=0.96 n= 13 {'plane': 6, 'cylinder': 7} axisConc=0.12
+  22040_6461a147_1.stp         U=0.003 cov=1.00 n=  8 {'cylinder': 5, 'plane': 3} axisConc=0.93
+  22100_7eb0592c_3.stp         U=0.004 cov=1.00 n=  8 {'cylinder': 5, 'plane': 3} axisConc=0.68
+  22118_1e09e0eb_1.stp         U=0.002 cov=0.99 n= 13 {'plane': 7, 'cylinder': 6} axisConc=0.92
+  22194_a5c323b9_0.stp         U=0.002 cov=0.98 n= 12 {'cylinder': 8, 'plane': 4} axisConc=0.76
+  22201_473a3a65_23.stp        U=0.003 cov=0.97 n= 10 {'plane': 7, 'cylinder': 3} axisConc=0.63
+  22245_ca848576_6.stp         U=0.005 cov=1.00 n=  6 {'cylinder': 3, 'plane': 3} axisConc=0.81
+  22264_1866e0e4_6.stp         U=0.002 cov=0.99 n= 14 {'cylinder': 5, 'plane': 9} axisConc=0.87
+  22772_2b5f6629_15.stp        U=0.003 cov=0.87 n=  9 {'cylinder': 5, 'plane': 4} axisConc=0.64
+  24012_097cf980_0.stp         U=0.003 cov=0.98 n= 16 {'cylinder': 4, 'plane': 12} axisConc=0.63
+  25365_14519ce1_0.stp         U=0.003 cov=0.91 n= 13 {'plane': 7, 'cylinder': 6} axisConc=0.57
+  28119_f4fb1c4c_1.stp         U=0.005 cov=1.00 n=  7 {'cylinder': 1, 'plane': 5, 'sphere': 1} axisConc=0.03
+  29726_73b01e1f_0.stp         U=0.002 cov=0.88 n= 15 {'cylinder': 6, 'plane': 9} axisConc=0.61
+  34456_fac5e814_30.stp        U=0.005 cov=0.97 n=  6 {'cylinder': 3, 'plane': 3} axisConc=0.82
+  38953_19054857_4.stp         U=0.004 cov=1.00 n=  7 {'cylinder': 5, 'plane': 2} axisConc=0.51
+  38953_19054857_5.stp         U=0.005 cov=0.94 n=  8 {'cylinder': 6, 'plane': 2} axisConc=0.55
+  45030_8789f090_2.stp         U=0.004 cov=0.85 n=  8 {'plane': 6, 'cylinder': 2} axisConc=0.62
+  49019_748c9a9f_19.stp        U=0.009 cov=0.85 n=  6 {'cylinder': 2, 'plane': 4} axisConc=0.44
+  49795_efb13311_6.stp         U=0.006 cov=0.98 n=  7 {'plane': 4, 'cylinder': 3} axisConc=0.59
+  49797_52162ad8_6.stp         U=0.006 cov=0.97 n=  7 {'plane': 4, 'cylinder': 3} axisConc=0.51
+  52890_7ae554d9_1.stp         U=0.003 cov=0.99 n=  9 {'plane': 4, 'cylinder': 4, 'sphere': 1} axisConc=0.49
+  55625_453e11ac_6.stp         U=0.002 cov=0.97 n= 12 {'plane': 8, 'cylinder': 4} axisConc=0.93
+  sample_model.stp             U=0.001 cov=0.97 n=158 {'plane': 2, 'cylinder': 156} axisConc=0.77
+
+eligible=19; exporting 19 STLs to /home/ubclr/projects/new/geop2e/code/minimal/../print_pack_20
+  exported 21638_0a984848_73_150mm.stl bbox=[50.5, 150.2, 150.4] (x7.500)
+  exported 29726_73b01e1f_0_150mm.stl bbox=[76.0, 81.0, 150.9] (x7.496)
+  exported 132581_e683b2ae_6_150mm.stl bbox=[150.7, 150.6, 34.8] (x7.500)
+  exported 52890_7ae554d9_1_150mm.stl bbox=[41.8, 151.0, 42.8] (x7.500)
+  exported 24012_097cf980_0_150mm.stl bbox=[151.2, 118.6, 150.9] (x7.495)
+  exported 22201_473a3a65_23_150mm.stl bbox=[151.6, 100.2, 100.2] (x7.500)
+  exported 21644_aa203dc5_3_150mm.stl bbox=[12.1, 150.5, 150.5] (x7.500)
+  exported 25365_14519ce1_0_150mm.stl bbox=[150.5, 97.5, 97.3] (x7.500)
+  exported 22772_2b5f6629_15_150mm.stl bbox=[150.7, 116.6, 116.1] (x7.500)
+  exported 129401_7686af57_0_150mm.stl bbox=[150.5, 70.5, 150.8] (x7.501)
+  exported 22100_7eb0592c_3_150mm.stl bbox=[150.5, 97.8, 150.6] (x7.500)
+  exported 38953_19054857_4_150mm.stl bbox=[50.5, 150.4, 150.2] (x7.500)
+  exported 146889_355637a1_31_150mm.stl bbox=[116.7, 151.2, 151.2] (x7.490)
+  exported 45030_8789f090_2_150mm.stl bbox=[107.7, 151.4, 107.8] (x7.500)
+  exported 28119_f4fb1c4c_1_150mm.stl bbox=[151.4, 121.6, 151.6] (x7.500)
+  exported 38953_19054857_5_150mm.stl bbox=[78.0, 151.1, 78.0] (x7.500)
+  exported 49795_efb13311_6_150mm.stl bbox=[150.4, 24.0, 150.4] (x7.500)
+  exported 49797_52162ad8_6_150mm.stl bbox=[150.4, 18.1, 150.4] (x7.500)
+  exported 49019_748c9a9f_19_150mm.stl bbox=[136.4, 147.1, 136.5] (x7.300)
+saved /home/ubclr/projects/new/geop2e/code/minimal/../print_pack_20/MANIFEST.json with 19 parts

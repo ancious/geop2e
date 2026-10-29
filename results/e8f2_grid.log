@@ -1,0 +1,6 @@
+[21638_0a984848_7] ref=0.232 sel=e8 best: lam=0.01 ang=15.0 median=0.248 rre=0.174deg tte=0.029mm
+[21644_aa203dc5_3] ref=0.122 sel=all best: lam=0.1 ang=30.0 median=0.300 rre=7.374deg tte=0.305mm
+[29726_73b01e1f_0] ref=0.139 sel=e8 best: lam=0.1 ang=30.0 median=0.141 rre=0.130deg tte=0.038mm
+[52890_7ae554d9_1] ref=0.090 sel=all best: lam=0.001 ang=30.0 median=0.090 rre=0.030deg tte=0.005mm
+[25365_14519ce1_0] ref=0.134 sel=e8 best: lam=0.001 ang=15.0 median=0.133 rre=0.007deg tte=0.018mm
+saved results/e8f2_grid.json

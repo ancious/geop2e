@@ -1,0 +1,21 @@
+/home/ubclr/miniconda3/envs/geo/lib/python3.11/site-packages/pyransac3d/sphere.py:117: RuntimeWarning: invalid value encountered in scalar divide
+  center = [0.5 * (M12 / M11), -0.5 * (M13 / M11), 0.5 * (M14 / M11)]
+/home/ubclr/miniconda3/envs/geo/lib/python3.11/site-packages/pyransac3d/sphere.py:117: RuntimeWarning: divide by zero encountered in scalar divide
+  center = [0.5 * (M12 / M11), -0.5 * (M13 / M11), 0.5 * (M14 / M11)]
+/home/ubclr/miniconda3/envs/geo/lib/python3.11/site-packages/pyransac3d/sphere.py:118: RuntimeWarning: divide by zero encountered in scalar divide
+  radius = np.sqrt(np.dot(center, center) - (M15 / M11))
+/home/ubclr/miniconda3/envs/geo/lib/python3.11/site-packages/pyransac3d/sphere.py:118: RuntimeWarning: invalid value encountered in scalar subtract
+  radius = np.sqrt(np.dot(center, center) - (M15 / M11))
+/home/ubclr/miniconda3/envs/geo/lib/python3.11/site-packages/pyransac3d/sphere.py:126: RuntimeWarning: invalid value encountered in subtract
+  dist_hull = np.abs(dist_pt - radius)
+50 filtered scans
+parts: ['Base-Top_Plate', 'Bookshelf', 'Guitar', 'Pendulum', 'Range_Hood', 'Round-Peg', 'Separator', 'Shaft-New', 'Square-Peg']
+  fit Base-Top_Plate: {'plane': 5, 'cylinder': 2, 'sphere': 0} coverage=0.6898
+  fit Bookshelf: {'plane': 12, 'cylinder': 0, 'sphere': 0} coverage=0.8067
+  fit Guitar: {'plane': 3, 'cylinder': 0, 'sphere': 0} coverage=0.7875
+  fit Pendulum: {'plane': 4, 'cylinder': 3, 'sphere': 0} coverage=0.6876
+  fit Range_Hood: {'plane': 9, 'cylinder': 0, 'sphere': 0} coverage=0.9757
+  fit Round-Peg: {'plane': 0, 'cylinder': 3, 'sphere': 1} coverage=0.1859
+  fit Separator: {'plane': 6, 'cylinder': 0, 'sphere': 0} coverage=0.6508
+  fit Shaft-New: {'plane': 8, 'cylinder': 4, 'sphere': 0} coverage=0.788
+  fit Square-Peg: {'plane': 12, 'cylinder': 0, 'sphere': 0} coverage=0.7868
